@@ -1,0 +1,842 @@
+[
+  {
+    "id": 181,
+    "question": "Wat doe je bij een fietser die rechtsaf lijkt te willen slaan?",
+    "options": [
+      "Doorkruisen voor de fietser",
+      "Wachten tot de fietser is afgeslagen",
+      "Claxon gebruiken",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "RIGHT_OF_WAY",
+    "explanation": "Fietsers hebben voorrang bij rechtsafslaan. Wacht geduldig tot de fietser veilig is afgeslagen. Dit voorkunt gevaarlijke situaties.",
+    "imageUrl": "images/cyclist-right-turn.png"
+  },
+  {
+    "id": 182,
+    "question": "Wanneer heeft een voetganger voorrang op een zebrapad?",
+    "options": [
+      "Alleen bij kinderen",
+      "Altijd",
+      "Alleen bij senioren",
+      "Alleen bij drukte"
+    ],
+    "correctAnswer": 1,
+    "category": "PEDESTRIAN_RIGHT_OF_WAY",
+    "explanation": "Voetgangers hebben altijd voorrang op zebrapaden. Dit geldt voor alle voetgangers, ongeacht leeftijd of situatie. Stop altijd.",
+    "imageUrl": "images/zebra-crossing-right-of-way.png"
+  },
+  {
+    "id": 183,
+    "question": "Wat doe je bij een naderende ambulance met sirene?",
+    "options": [
+      "Doorgaan met rijden",
+      "Naar rechts uitwijken en stoppen",
+      "Links aanhouden",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "EMERGENCY_VEHICLES",
+    "explanation": "Bij naderende hulpdiensten moet je direct naar rechts uitwijken en stoppen. Dit geldt voor alle hulpdiensten met zwaailicht en sirene.",
+    "videoUrl": "videos/emergency-vehicle.mp4"
+  },
+  {
+    "id": 184,
+    "question": "Wanneer moet je voorrang verlenen aan tram?",
+    "options": [
+      "Alleen bij tramhalte",
+      "Altijd bij tramrails",
+      "Alleen bij overstekende tram",
+      "Alleen bij tram van rechts"
+    ],
+    "correctAnswer": 2,
+    "category": "TRAM_RIGHT_OF_WAY",
+    "explanation": "Trams hebben altijd voorrang bij het verlaten van tramhaltes en bij oversteken. Dit geldt ook wanneer trams van rechts komen.",
+    "imageUrl": "images/tram-right-of-way.png"
+  },
+  {
+    "id": 185,
+    "question": "Wat doe je bij een geel kruis boven de rijbaan?",
+    "options": [
+      "Doorgaan",
+      "Rijstrook verlaten",
+      "Snelheid verhogen",
+      "Links aanhouden"
+    ],
+    "correctAnswer": 1,
+    "category": "LANE_CLOSURE",
+    "explanation": "Een geel kruis boven een rijstrook betekent dat deze rijstrook gesloten is. Verlaat de rijstrook zo snel als veilig kan.",
+    "imageUrl": "images/lane-closed.png"
+  },
+  {
+    "id": 186,
+    "question": "Wanneer heeft een politieagent voorrang?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij verkeersregeling",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "POLICE_AUTHORITY",
+    "explanation": "Politieagenten hebben altijd voorrang bij verkeersregeling. Hun instructies prevaleren boven verkeersborden en lichten.",
+    "imageUrl": "images/police-traffic-control.png"
+  },
+  {
+    "id": 187,
+    "question": "Wat doe je bij een rood verkeerslicht?",
+    "options": [
+      "Langzaam doorrijden",
+      "Stoppen voor de stopstreep",
+      "Doorkruisen bij geen verkeer",
+      "Doorrijden als je snel bent"
+    ],
+    "correctAnswer": 1,
+    "category": "TRAFFIC_LIGHTS",
+    "explanation": "Bij rood licht moet je altijd stoppen voor de stopstreep. Dit geldt ook bij geen naderend verkeer. Rood betekent altijd stoppen.",
+    "imageUrl": "images/red-traffic-light.png"
+  },
+  {
+    "id": 188,
+    "question": "Wanneer moet je voorrang verlenen aan landbouwvoertuigen?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij smalle wegen",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "AGRICULTURAL_VEHICLES",
+    "explanation": "Landbouwvoertuigen hebben voorrang op smalle landelijke wegen. Dit geldt voor tractoren en andere landbouwvoertuigen.",
+    "imageUrl": "images/agricultural-vehicle-right-of-way.png"
+  },
+  {
+    "id": 189,
+    "question": "Wat doe je bij een oranje verkeerslicht?",
+    "options": [
+      "Stoppen",
+      "Doorgaan",
+      "Snelheid verhogen",
+      "Waarschuwen"
+    ],
+    "correctAnswer": 0,
+    "category": "TRAFFIC_LIGHTS",
+    "explanation": "Oranje verkeerslicht is een waarschuwing dat rood komt. Je moet stoppen als dit veilig kan. Ben je te dichtbij, dan mag je doorrijden.",
+    "imageUrl:": "images/orange-traffic-light.png"
+  },
+  {
+    "id": 190,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 120 km/u?",
+    "options": [
+      "80 meter",
+      "100 meter",
+      "120 meter",
+      "140 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 120 km/u moet je minstens 100 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-120.png"
+  },
+  {
+    "id": 191,
+    "question": "Wat betekent een blauw bord met een witte pijl?",
+    "options": [
+      "Verplichte richting",
+      "Richtingaanwijzer",
+      "Parkeerplaats",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 0,
+    "category": "MANDATORY_DIRECTION",
+    "explanation": "Een blauw bord met een witte pijl geeft een verplichte richting aan. Je moet in deze richting verder rijden.",
+    "imageUrl": "images/mandatory-direction.png"
+  },
+  {
+    "id": 192,
+    "question": "Wanneer moet je voorrang verlenen aan bestemmingsverkeer?",
+    "options": [
+      "Altijd",
+      "Alleen bij borden",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 0,
+    "category": "DESTINATION_TRAFFIC",
+    "explanation": "Bestemmingsverkeer heeft altijd voorrang. Dit zijn voertuigen die een bepaalde locatie moeten bereiken zoals hulpdiensten of afvalwagens.",
+    "imageUrl": "images/destination-traffic-right-of-way.png"
+  },
+  {
+    "id": 193,
+    "question": "Wat doe je bij een gele lijn in het midden van de weg?",
+    "options": [
+      "Niets bijzonders",
+      "Let op voor inhalen",
+      "Inhaalverbod",
+      "Snelheid verlagen"
+    ],
+    "correctAnswer": 2,
+    "category": "NO_OVERTAKING",
+    "explanation": "Een gele lijn in het midden van de weg betekent inhaalverbod. Dit geldt voor de hele lengte van de lijn. Er kunnen uitzonderingen zijn.",
+    "imageUrl": "images/no-overtaking-line.png"
+  },
+  {
+    "id": 194,
+    "question": "Wanneer heeft een schoolbus voorrang?",
+    "options": [
+      "Alleen bij halte",
+      "Altijd bij kinderen in- en uitstappen",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "SCHOOL_BUS_PRIORITY",
+    "explanation": "Schoolbussen hebben voorrang bij kinderen in- en uitstappen. Dit geldt wanneer de stoplichten knipperen. Stop altijd.",
+    "imageUrl": "images/school-bus-right-of-way.png"
+  },
+  {
+    "id": 195,
+    "question": "Wat betekent een rood bord met een witte rand?",
+    "options": [
+      "Gebod",
+      "Verbod",
+      "Waarschuwing",
+      "Informatie"
+    ],
+    "correctAnswer": 1,
+    "category": "PROHIBITION_SIGNS",
+    "explanation": "Rode borden met witte rand zijn verbodsborden. Ze geven aan dat iets verboden is, zoals parkeren of inhalen.",
+    "imageUrl": "images/prohibition-sign.png"
+  },
+  {
+    "id": 196,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 90 km/u?",
+    "options": [
+      "60 meter",
+      "70 meter",
+      "80 meter",
+      "90 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 90 km/u moet je minstens 70 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-90.png"
+  },
+  {
+    "id": 197,
+    "question": "Wat doe je bij een STOP-bord?",
+    "options": [
+      "Langzaam rollen en verder rijden",
+      "Volledig stoppen en voorrang verlenen",
+      "Remmen maar niet stoppen",
+      "Doorkruisen bij geen verkeer"
+    ],
+    "correctAnswer": 1,
+    "category": "STOP_SIGN_RULES",
+    "explanation": "Bij een STOP-bord moet je volledig stoppen (wielstilstand) en voorrang verlenen aan verkeer op de kruisende weg. Dit is een verplicht stopteken.",
+    "imageUrl": "images/stop-sign-rules.png"
+  },
+  {
+    "id": 198,
+    "question": "Wanneer moet je voorrang verlenen aan voetgangers?",
+    "options": [
+      "Alleen bij zebrapad",
+      "Altijd bij oversteken",
+      "Alleen bij kinderen",
+      "Alleen bij senioren"
+    ],
+    "correctAnswer": 1,
+    "category": "PEDESTRIAN_PRIORITY",
+    "explanation": "Voetgangers hebben altijd voorrang bij het oversteken, zowel bij zebrapaden als bij oversteekplaatsen zonder markering. Stop altijd.",
+    "imageUrl": "images/pedestrian-crossing-right-of-way.png"
+  },
+  {
+    "id": 199,
+    "question": "Wat betekent een blauw cirkelvormig bord?",
+    "options": [
+      "Verbod",
+      "Gebod",
+      "Waarschuwing",
+      "Informatie"
+    ],
+    "correctAnswer": 1,
+    "category": "MANDATORY_SIGNS",
+    "explanation": "Blauwe cirkelvormige borden zijn gebodsborden. Ze geven aan dat iets verplicht is, zoals een minimumsnelheid.",
+    "imageUrl": "images/mandatory-sign-blue.png"
+  },
+  {
+    "id": 200,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 50 km/u?",
+    "options": [
+      "15 meter",
+      "25 meter",
+      "35 meter",
+      "45 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 50 km/u moet je minstens 25 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-50.png"
+  },
+  {
+    "id": 201,
+    "question": "Wat doe je bij een geel kruis boven de rijbaan?",
+    "options": [
+      "Doorgaan",
+      "Rijstrook verlaten",
+      "Snelheid verhogen",
+      "Links aanhouden"
+    ],
+    "correctAnswer": 1,
+    "category": "LANE_MANAGEMENT",
+    "explanation": "Een geel kruis boven een rijstrook betekent dat deze rijstrook gesloten is. Verlaat de rijstrook zo snel als veilig kan.",
+    "imageUrl": "images/lane-closure-yellow.png"
+  },
+  {
+    "id": 202,
+    "question": "Wanneer heeft een vrachtwagen voorrang?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij smalle wegen",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "TRUCK_PRIORITY",
+    "explanation": "Vrachtwagens hebben voorrang op smalle wegen. Dit geldt voor grote voertuigen die moeilijk kunnen keren.",
+    "imageUrl": "images/truck-right-of-way.png"
+  },
+  {
+    "id": 203,
+    "question": "Wat betekent een witte zigzaglijn op de weg?",
+    "options": [
+      "Parkeerplaats",
+      "Voetgangersoversteekplaats",
+      "Inrijverbod",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 1,
+    "category": "ZEBRA_CROSSING",
+    "explanation": "Witte zigzaglijnen markeren een voetgangersoversteekplaats. Je mag hier niet parkeren of stoppen. Geef voetgangers altijd voorrang.",
+    "imageUrl": "images/zebra-crossing-markings.png"
+  },
+  {
+    "id": 204,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 70 km/u?",
+    "options": [
+      "35 meter",
+      "45 meter",
+      "55 meter",
+      "65 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 70 km/u moet je minstens 45 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-70.png"
+  },
+  {
+    "id": 205,
+    "question": "Wat doe je bij een politieagent die verkeer regelt?",
+    "options": [
+      "Doorgaan",
+      "Volgen van instructies",
+      "Snelheid verhogen",
+      "Links aanhouden"
+    ],
+    "correctAnswer": 1,
+    "category": "POLICE_DIRECTION",
+    "explanation": "Politieagenten die verkeer regelen hebben altijd voorrang. Hun instructies prevaleren boven verkeersborden en lichten.",
+    "imageUrl": "images/police-traffic-direction.png"
+  },
+  {
+    "id": 206,
+    "question": "Wanneer moet je voorrang verlenen aan dieren?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij overstekende dieren",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "ANIMAL_CROSSING",
+    "explanation": "Dieren hebben altijd voorrang bij oversteken. Dit geldt voor alle dieren, ongeacht grootte. Stop altijd en wacht geduldig.",
+    "imageUrl": "images/animal-crossing-right-of-way.png"
+  },
+  {
+    "id": 207,
+    "question": "Wat betekent een blauw rechthoekig bord met een witte P?",
+    "options": [
+      "Parkeerverbod",
+      "Parkeerplaats",
+      "Parkeerduur",
+      "Betaald parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "PARKING_SIGNS",
+    "explanation": "Een blauw rechthoekig bord met een witte P geeft een parkeerplaats aan. Let op eventuele aanvullende borden met tijden of betalingsinstructies.",
+    "imageUrl": "images/parking-sign-blue.png"
+  },
+  {
+    "id": 208,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 30 km/u?",
+    "options": [
+      "10 meter",
+      "15 meter",
+      "20 meter",
+      "25 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 30 km/u moet je minstens 15 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-30.png"
+  },
+  {
+    "id": 209,
+    "question": "Wat doe je bij een gele lijn aan de rand van de weg?",
+    "options": [
+      "Niets bijzonders",
+      "Parkeerverbod",
+      "Stopverbod",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 1,
+    "category": "PARKING_RESTRICTIONS",
+    "explanation": "Een gele lijn aan de rand van de weg betekent parkeerverbod. Dit geldt voor de hele lengte van de markering. Er kunnen uitzonderingen zijn met borden.",
+    "imageUrl": "images/yellow-line-parking-ban.png"
+  },
+  {
+    "id": 210,
+    "question": "Wanneer moet je voorrang verlenen aan militaire voertuigen?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij militaire colonnes",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "MILITARY_PRIORITY",
+    "explanation": "Militaire voertuigen hebben altijd voorrang bij militaire colonnes. Dit geldt voor alle militaire voertuigen in formatie.",
+    "imageUrl": "images/military-convoy-right-of-way.png"
+  },
+  {
+    "id": 211,
+    "question": "Wat betekent een rood bord met een witte rand?",
+    "options": [
+      "Gebod",
+      "Verbod",
+      "Waarschuwing",
+      "Informatie"
+    ],
+    "correctAnswer": 1,
+    "category": "PROHIBITION_SIGNS",
+    "explanation": "Rode borden met witte rand zijn verbodsborden. Ze geven aan dat iets verboden is, zoals parkeren of inhalen.",
+    "imageUrl:": "images/prohibition-sign-red.png"
+  },
+  {
+    "id": 212,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 110 km/u?",
+    "options": [
+      "80 meter",
+      "90 meter",
+      "100 meter",
+      "110 meter"
+    ],
+    "correctAnswer": 2,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 110 km/u moet je minstens 100 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-110.png"
+  },
+  {
+    "id": 213,
+    "question": "Wat doe je bij een spoorwegovergang met slagbomen?",
+    "options": [
+      "Doorgaan bij geen trein",
+      "Stoppen voor gesloten slagbomen",
+      "Snelheid verhogen",
+      "Links aanhouden"
+    ],
+    "correctAnswer": 1,
+    "category": "RAILWAY_CROSSING",
+    "explanation": "Bij een spoorwegovergang met slagbomen moet je stoppen voor gesloten slagbomen. Wacht tot de slagbomen open zijn.",
+    "imageUrl": "images/railway-crossing-barriers.png"
+  },
+  {
+    "id": 214,
+    "question": "Wanneer moet je voorrang verlenen aan bestemmingsverkeer?",
+    "options": [
+      "Altijd",
+      "Alleen bij borden",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 0,
+    "category": "DESTINATION_TRAFFIC",
+    "explanation": "Bestemmingsverkeer heeft altijd voorrang. Dit zijn voertuigen die een bepaalde locatie moeten bereiken zoals hulpdiensten of afvalwagens.",
+    "imageUrl": "images/destination-traffic-right-of-way.png"
+  },
+  {
+    "id": 215,
+    "question": "Wat betekent een blauw cirkelvormig bord met een wit cijfer?",
+    "options": [
+      "Maximumsnelheid",
+      "Minimumsnelheid",
+      "Gemiddelde snelheid",
+      "Snelheidslimiet einde"
+    ],
+    "correctAnswer": 1,
+    "category": "SPEED_LIMITS",
+    "explanation": "Een blauw cirkelvormig bord met een wit cijfer geeft een minimumsnelheid aan. Je moet minstens deze snelheid aanhouden.",
+    "imageUrl": "images/minimum-speed-sign.png"
+  },
+  {
+    "id": 216,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 130 km/u?",
+    "options": [
+      "100 meter",
+      "110 meter",
+      "120 meter",
+      "130 meter"
+    ],
+    "correctAnswer": 2,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 130 km/u moet je minstens 120 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-130.png"
+  },
+  {
+    "id": 217,
+    "question": "Wat doe je bij een spoorwegovergang zonder slagbomen?",
+    "options": [
+      "Doorgaan bij geen trein",
+      "Stoppen en voorrang verlenen",
+      "Snelheid verhogen",
+      "Links aanhouden"
+    ],
+    "correctAnswer": 1,
+    "category": "RAILWAY_CROSSING",
+    "explanation": "Bij een spoorwegovergang zonder slagbomen moet je stoppen en voorrang verlenen aan naderende treinen. Controleer altijd.",
+    "imageUrl": "images/railway-crossing-no-barriers.png"
+  },
+  {
+    "id": 218,
+    "question": "Wanneer moet je voorrang verlenen aan vrachtwagens?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij smalle wegen",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "TRUCK_PRIORITY",
+    "explanation": "Vrachtwagens hebben voorrang op smalle wegen. Dit geldt voor grote voertuigen die moeilijk kunnen keren.",
+    "imageUrl": "images/truck-right-of-way-narrow.png"
+  },
+  {
+    "id": 219,
+    "question": "Wat betekent een witte streep dwars over de rijbaan?",
+    "options": [
+      "Parkeerplaats",
+      "Stoplijn",
+      "Inrijverbod",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 1,
+    "category": "STOP_LINE",
+    "explanation": "Een witte streep dwars over de rijbaan is een stoplijn. Je moet hier stoppen bij verkeer van rechts of bij verkeerslichten.",
+    "imageUrl": "images/stop-line-white.png"
+  },
+  {
+    "id": 220,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 80 km/u?",
+    "options": [
+      "50 meter",
+      "60 meter",
+      "70 meter",
+      "80 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 80 km/u moet je minstens 60 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-80.png"
+  },
+  {
+    "id": 221,
+    "question": "Wat doe je bij een verkeersbord 'STOP'?",
+    "options": [
+      "Langzaam rollen en verder rijden",
+      "Volledig stoppen en voorrang verlenen",
+      "Remmen maar niet stoppen",
+      "Doorkruisen bij geen verkeer"
+    ],
+    "correctAnswer": 1,
+    "category": "STOP_SIGN_RULES",
+    "explanation": "Bij een STOP-bord moet je volledig stoppen (wielstilstand) en voorrang verlenen aan verkeer op de kruisende weg. Dit is een verplicht stopteken.",
+    "imageUrl": "images/stop-sign-rules.png"
+  },
+  {
+    "id": 222,
+    "question": "Wanneer moet je voorrang verlenen aan militaire voertuigen?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij militaire colonnes",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "MILITARY_PRIORITY",
+    "explanation": "Militaire voertuigen hebben altijd voorrang bij militaire colonnes. Dit geldt voor alle militaire voertuigen in formatie.",
+    "imageUrl": "images/military-convoy-right-of-way.png"
+  },
+  {
+    "id": 223,
+    "question": "Wat betekent een blauw rechthoekig bord met een witte H?",
+    "options": [
+      "Ziekenhuis",
+      "Hotel",
+      "Hulppost",
+      "Haven"
+    ],
+    "correctAnswer": 0,
+    "category": "HOSPITAL_SIGN",
+    "explanation": "Een blauw rechthoekig bord met een witte H geeft een ziekenhuis aan. Dit is een herkenningsteken voor medische voorzieningen.",
+    "imageUrl:": "images/hospital-sign-blue.png"
+  },
+  {
+    "id": 224,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 40 km/u?",
+    "options": [
+      "20 meter",
+      "25 meter",
+      "30 meter",
+      "35 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 40 km/u moet je minstens 20 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-40.png"
+  },
+  {
+    "id": 225,
+    "question": "Wat doe je bij een spoorwegovergang met waarschuwingslichten?",
+    "options": [
+      "Doorgaan bij geen trein",
+      "Stoppen bij waarschuwingslichten",
+      "Snelheid verhogen",
+      "Links aanhouden"
+    ],
+    "correctAnswer": 1,
+    "category": "RAILWAY_CROSSING",
+    "explanation": "Bij een spoorwegovergang met waarschuwingslichten moet je stoppen als de lichten knipperen. Wacht tot de lichten uit zijn.",
+    "imageUrl": "images/railway-crossing-lights.png"
+  },
+  {
+    "id": 226,
+    "question": "Wanneer moet je voorrang verlenen aan werkverkeer?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij werkzaamheden",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "WORK_TRAFFIC_PRIORITY",
+    "explanation": "Werkverkeer heeft altijd voorrang bij werkzaamheden. Dit geldt voor onderhoudswagens en werkvoertuigen.",
+    "imageUrl": "images/work-traffic-right-of-way.png"
+  },
+  {
+    "id": 227,
+    "question": "Wat betekent een blauw vierkant bord met een witte fiets?",
+    "options": [
+      "Fietsverbod",
+      "Fietsers toegestaan",
+      "Fietsers hebben voorrang",
+      "Fietspad"
+    ],
+    "correctAnswer": 3,
+    "category": "CYCLE_PATH_SIGN",
+    "explanation": "Een blauw vierkant bord met een witte fiets geeft een fietspad aan. Fietsers moeten dit pad gebruiken. Andere weggebruikers mogen hier niet rijden.",
+    "imageUrl": "images/cycle-path-sign.png"
+  },
+  {
+    "id": 228,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 60 km/u?",
+    "options": [
+      "30 meter",
+      "35 meter",
+      "40 meter",
+      "45 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 60 km/u moet je minstens 35 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-60.png"
+  },
+  {
+    "id": 229,
+    "question": "Wat doe je bij een verkeersbord 'VOORRANG VERLENEN'?",
+    "options": [
+      "Doorgaan",
+      "Stoppen en voorrang verlenen",
+      "Snelheid verhogen",
+      "Links aanhouden"
+    ],
+    "correctAnswer": 1,
+    "category": "YIELD_SIGN_RULES",
+    "explanation": "Bij een VOORRANG VERLENEN-bord moet je stoppen en voorrang verlenen aan verkeer op de kruisende weg. Dit is een voorrangsteken.",
+    "imageUrl": "images/yield-sign-rules.png"
+  },
+  {
+    "id": 230,
+    "question": "Wanneer moet je voorrang verlenen aan hulpdiensten?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij sirene en zwaailicht",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "EMERGENCY_PRIORITY",
+    "explanation": "Hulpdiensten hebben altijd voorrang bij sirene en zwaailicht. Dit geldt voor alle hulpdiensten in noodgevallen.",
+    "imageUrl": "images/emergency-vehicle-priority.png"
+  },
+  {
+    "id": 231,
+    "question": "Wat betekent een blauw bord met een witte tankstation pomp?",
+    "options": [
+      "Tankstation",
+      "Parkeerplaats",
+      "Hulppost",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 0,
+    "category": "SERVICE_SIGNS",
+    "explanation": "Een blauw bord met een witte tankstation pomp geeft een tankstation aan. Dit is een herkenningsteken voor brandstofvoorzieningen.",
+    "imageUrl:": "images/gas-station-sign-blue.png"
+  },
+  {
+    "id": 232,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 20 km/u?",
+    "options": [
+      "10 meter",
+      "15 meter",
+      "20 meter",
+      "25 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 20 km/u moet je minstens 10 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-20.png"
+  },
+  {
+    "id": 233,
+    "question": "Wat doe je bij een verkeersbord 'MAXIMUM SNELHEID'?",
+    "options": [
+      "Snelheid overschrijden",
+      "Snelheid aanpassen",
+      "Snelheid verhogen",
+      "Snelheid negeren"
+    ],
+    "correctAnswer": 1,
+    "category": "SPEED_LIMIT_RULES",
+    "explanation": "Bij een MAXIMUM SNELHEID-bord moet je de snelheid aanpassen. Rijd niet harder dan de aangegeven snelheid.",
+    "imageUrl": "images/speed-limit-rules.png"
+  },
+  {
+    "id": 234,
+    "question": "Wanneer moet je voorrang verlenen aan landbouwvoertuigen?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij smalle wegen",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "AGRICULTURAL_PRIORITY",
+    "explanation": "Landbouwvoertuigen hebben voorrang op smalle landelijke wegen. Dit geldt voor tractoren en andere landbouwvoertuigen.",
+    "imageUrl": "images/agricultural-vehicle-priority.png"
+  },
+  {
+    "id": 235,
+    "question": "Wat betekent een blauw bord met een witte pijl omhoog?",
+    "options": [
+      "Rechtdoor verplicht",
+      "Linksaf verplicht",
+      "Rechtsaf verplicht",
+      "Keerplicht"
+    ],
+    "correctAnswer": 0,
+    "category": "MANDATORY_DIRECTION",
+    "explanation": "Een blauw bord met een witte pijl omhoog geeft een verplichte richting rechtdoor aan. Je moet in deze richting verder rijden.",
+    "imageUrl": "images/mandatory-straight-ahead.png"
+  },
+  {
+    "id": 236,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 25 km/u?",
+    "options": [
+      "12 meter",
+      "15 meter",
+      "18 meter",
+      "20 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 25 km/u moet je minstens 15 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-25.png"
+  },
+  {
+    "id": 237,
+    "question": "Wat doe je bij een verkeersbord 'INHAALEN VERBODEN'?",
+    "options": [
+      "Inhalen toegestaan",
+      "Niet inhalen",
+      "Snel inhalen",
+      "Inhalen bij geen verkeer"
+    ],
+    "correctAnswer": 1,
+    "category": "NO_OVERTAKING_RULES",
+    "explanation": "Bij een INHAALEN VERBODEN-bord mag je niet inhalen. Dit geldt voor de hele lengte van het verbod. Er kunnen uitzonderingen zijn.",
+    "imageUrl": "images/no-overtaking-rules.png"
+  },
+  {
+    "id": 238,
+    "question": "Wanneer moet je voorrang verlenen aan werkverkeer?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij werkzaamheden",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "WORK_TRAFFIC_PRIORITY",
+    "explanation": "Werkverkeer heeft altijd voorrang bij werkzaamheden. Dit geldt voor onderhoudswagens en werkvoertuigen.",
+    "imageUrl": "images/work-traffic-right-of-way.png"
+  },
+  {
+    "id": 239,
+    "question": "Wat betekent een blauw vierkant bord met een witte H?",
+    "options": [
+      "Ziekenhuis",
+      "Hotel",
+      "Hulppost",
+      "Haven"
+    ],
+    "correctAnswer": 0,
+    "category": "HOSPITAL_SIGN",
+    "explanation": "Een blauw vierkant bord met een witte H geeft een ziekenhuis aan. Dit is een herkenningsteken voor medische voorzieningen.",
+    "imageUrl": "images/hospital-sign-blue.png"
+  },
+  {
+    "id": 240,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 35 km/u?",
+    "options": [
+      "17 meter",
+      "20 meter",
+      "23 meter",
+      "25 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 35 km/u moet je minstens 20 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-35.png"
+  }
+]

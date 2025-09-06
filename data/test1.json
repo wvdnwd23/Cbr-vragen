@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "question": "Wat betekent een doorgetrokken witte streep in het midden van de rijbaan?",
+    "options": [
+      "Je mag nooit van rijstrook wisselen",
+      "Je mag alleen van rijstrook wisselen bij noodgevallen",
+      "Je mag alleen van rijstrook wisselen als dit zonder gevaar kan",
+      "Je mag vrij van rijstrook wisselen"
+    ],
+    "correctAnswer": 2,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Een doorgetrokken witte streep verbiedt het wisselen van rijstrook, tenzij dit zonder gevaar voor ander verkeer kan. Dit is belangrijk voor de verkeersveiligheid.",
+    "imageUrl": "images/white-line-center.png"
+  },
+  {
+    "id": 2,
+    "question": "Wanneer moet je dimlicht gebruiken overdag?",
+    "options": [
+      "Alleen bij mist",
+      "Alleen bij regen",
+      "Altijd overdag",
+      "Bij slecht zicht overdag"
+    ],
+    "correctAnswer": 3,
+    "category": "LIGHTING",
+    "explanation": "Dimlicht moet gebruikt worden bij slecht zicht overdag (mist, regen, sneeuw). Dit vergroot je zichtbaarheid voor andere weggebruikers.",
+    "imageUrl": "images/daytime-lights.png"
+  },
+  {
+    "id": 3,
+    "question": "Wat is de maximale snelheid op een autoweg?",
+    "options": [
+      "100 km/u",
+      "120 km/u",
+      "130 km/u",
+      "140 km/u"
+    ],
+    "correctAnswer": 2,
+    "category": "SPEED_LIMITS",
+    "explanation": "Op een autoweg is de maximale snelheid 130 km/u, tenzij anders aangegeven door verkeersborden. Let op: bij nat weer is de maximale snelheid 110 km/u.",
+    "imageUrl": "images/highway-speed.png"
+  },
+  {
+    "id": 4,
+    "question": "Wat moet je doen bij een gele verkeerslicht?",
+    "options": [
+      "Altijd stoppen",
+      "Doorrijden als je al te dicht bij het kruispunt bent",
+      "Snel doorrijden",
+      "Remmen en stoppen"
+    ],
+    "correctAnswer": 1,
+    "category": "TRAFFIC_LIGHTS",
+    "explanation": "Bij geel licht moet je stoppen als dit veilig kan. Ben je al te dicht bij het kruispunt, dan mag je doorrijden. Geel licht is een waarschuwing dat rood komt.",
+    "videoUrl": "videos/yellow-light.mp4"
+  },
+  {
+    "id": 5,
+    "question": "Wat betekent een blauw verkeersbord met een witte pijl naar rechts?",
+    "options": [
+      "Verplicht rechts afslaan",
+      "Rechtsafslaan toegestaan",
+      "Rechtsafslaan verboden",
+      "Uitsluitend rechtsafslaan"
+    ],
+    "correctAnswer": 0,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw bord met witte pijl geeft een verplichte richting aan. Je moet in deze richting verder rijden. Dit zijn verplichte bevelsborden.",
+    "imageUrl": "images/blue-right-arrow.png"
+  },
+  {
+    "id": 6,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 100 km/u?",
+    "options": [
+      "30 meter",
+      "50 meter",
+      "70 meter",
+      "100 meter"
+    ],
+    "correctAnswer": 2,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 100 km/u moet je minstens 70 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance.png"
+  },
+  {
+    "id": 7,
+    "question": "Wat moet je doen bij een naderende ambulance met sirene?",
+    "options": [
+      "Snel naar rechts en stoppen",
+      "Doorgaan met rijden",
+      "Links aanhouden",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 0,
+    "category": "EMERGENCY_VEHICLES",
+    "explanation": "Bij naderende hulpdiensten moet je direct naar rechts uitwijken en stoppen. Dit geldt voor alle hulpdiensten met zwaailicht en sirene. Maak altijd een corridor vrij.",
+    "videoUrl": "videos/emergency-vehicle.mp4"
+  },
+  {
+    "id": 8,
+    "question": "Wanneer gebruik je de linker rijstrook op een autosnelweg?",
+    "options": [
+      "Alleen bij file",
+      "Voor inhalen en links afslaan",
+      "Altijd om sneller te rijden",
+      "Alleen bij pech"
+    ],
+    "correctAnswer": 1,
+    "category": "HIGHWAY_RULES",
+    "explanation": "De linker rijstrook is voor inhalen en links afslaan. Rijdt rechts en gebruik links alleen voor inhalen. Dit heet 'links rijden is inhalen'.",
+    "imageUrl": "images/highway-lanes.png"
+  },
+  {
+    "id": 9,
+    "question": "Wat betekent een oranje driehoek op de weg?",
+    "options": [
+      "Parkeerplaats",
+      "Waarschuwing voor gevaren",
+      "Snelheidslimiet",
+      "Verplichte stopplaats"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Een oranje driehoek is een waarschuwingsteken. Dit kan duiden op werkzaamheden, ongevallen of andere gevaren. Verlaag je snelheid en wees extra alert.",
+    "imageUrl": "images/orange-triangle.png"
+  },
+  {
+    "id": 10,
+    "question": "Hoe ver van een kruispunt mag je niet parkeren?",
+    "options": [
+      "5 meter",
+      "10 meter",
+      "15 meter",
+      "20 meter"
+    ],
+    "correctAnswer": 0,
+    "category": "PARKING_RULES",
+    "explanation": "Je mag niet parkeren binnen 5 meter van een kruispunt. Dit geldt ook voor kruisingen met fietspaden. Dit zorgt voor goed zicht voor alle verkeersdeelnemers.",
+    "imageUrl": "images/no-parking-intersection.png"
+  },
+  {
+    "id": 11,
+    "question": "Wat betekent een witte onderbroken streep in het midden van de rijbaan?",
+    "options": [
+      "Verboden in te halen",
+      "Inhalen toegestaan bij veilig",
+      "Verplicht rechts houden",
+      "Parkeerverbod"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Een onderbroken witte streep betekent dat inhalen is toegestaan als dit veilig kan. Dit geldt voor tegenliggers en langzamere voertuigen.",
+    "imageUrl": "images/broken-white-line.png"
+  },
+  {
+    "id": 12,
+    "question": "Wat moet je doen bij een verkeersbord 'STOP'?",
+    "options": [
+      "Langzaam rollen en verder rijden",
+      "Volledig stoppen en voorrang verlenen",
+      "Remmen maar niet stoppen",
+      "Doorkruisen bij geen verkeer"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_SIGNS",
+    "explanation": "Bij een STOP-bord moet je volledig stoppen (wielstilstand) en voorrang verlenen aan verkeer op de kruisende weg. Dit is een verplicht stopteken.",
+    "imageUrl": "images/stop-sign.png"
+  },
+  {
+    "id": 13,
+    "question": "Wat is de maximale snelheid binnen de bebouwde kom?",
+    "options": [
+      "30 km/u",
+      "50 km/u",
+      "70 km/u",
+      "90 km/u"
+    ],
+    "correctAnswer": 1,
+    "category": "SPEED_LIMITS",
+    "explanation": "Binnen de bebouwde kom is de standaard maximumsnelheid 50 km/u, tenzij anders aangegeven door verkeersborden. Let op speciale zones zoals schoolomgevingen.",
+    "imageUrl:": "images/urban-speed-limit.png"
+  },
+  {
+    "id": 14,
+    "question": "Wanneer gebruik je groot licht?",
+    "options": [
+      "Altijd overdag",
+      "Alleen bij mist",
+      "Bij goed zicht en geen tegenliggers",
+      "Bij slecht zicht zonder tegenliggers"
+    ],
+    "correctAnswer": 3,
+    "category": "LIGHTING",
+    "explanation": "Groot licht gebruik je bij slecht zicht (mist, regen, duisternis) wanneer er geen tegenliggers zijn. Dim licht bij naderende tegenliggers om verblinding te voorkomen.",
+    "imageUrl": "images/high-beam-usage.png"
+  },
+  {
+    "id": 15,
+    "question": "Wat betekent een gele lijn aan de kant van de weg?",
+    "options": [
+      "Parkeerverbod",
+      "Stopverbod",
+      "Inrijverbod",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 0,
+    "category": "PARKING_RULES",
+    "explanation": "Een gele lijn aan de kant van de weg betekent parkeerverbod. Dit geldt voor de hele lengte van de gele markering. Er kunnen uitzonderingen zijn met borden.",
+    "imageUrl": "images/yellow-line-parking.png"
+  },
+  {
+    "id": 16,
+    "question": "Wat moet je doen bij een rood verkeerslicht?",
+    "options": [
+      "Langzaam doorrijden",
+      "Stoppen voor de stopstreep",
+      "Doorkruisen bij geen verkeer",
+      "Doorrijden als je snel bent"
+    ],
+    "correctAnswer": 1,
+    "category": "TRAFFIC_LIGHTS",
+    "explanation": "Bij rood licht moet je altijd stoppen voor de stopstreep. Dit geldt ook bij geen naderend verkeer. Rood betekent altijd stoppen.",
+    "imageUrl": "images/red-traffic-light.png"
+  },
+  {
+    "id": 17,
+    "question": "Wat betekent een blauw vierkant bord met een witte pijl omhoog?",
+    "options": [
+      "Rechtdoor verplicht",
+      "Linksaf verplicht",
+      "Rechtsaf verplicht",
+      "Keerplicht"
+    ],
+    "correctAnswer": 0,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw vierkant bord met een witte pijl omhoog geeft een verplichte richting rechtdoor aan. Je moet in deze richting verder rijden.",
+    "imageUrl": "images/blue-straight-arrow.png"
+  },
+  {
+    "id": 18,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de fiets voor je?",
+    "options": [
+      "0.5 meter",
+      "1 meter",
+      "1.5 meter",
+      "2 meter"
+    ],
+    "correctAnswer:": 2,
+    "category": "CYCLIST_SAFETY",
+    "explanation": "Bij het inhalen van fietsers moet je minstens 1.5 meter afstand houden. Dit is wettelijk verplicht en garandeert de veiligheid van fietsers.",
+    "imageUrl": "images/cyclist-passing-distance.png"
+  },
+  {
+    "id": 19,
+    "question": "Wat moet je doen bij een schoolomgeving met 30 km/u zone?",
+    "options": [
+      "30 km/u alleen tijdens schooluren",
+      "Altijd 30 km/u",
+      "Alleen 30 km/u bij kinderen",
+      "30 km/u is een suggestie"
+    ],
+    "correctAnswer": 1,
+    "category": "SCHOOL_ZONES",
+    "explanation": "In een 30 km/u zone moet je altijd 30 km/u rijden, ongeacht het tijdstip. Deze zones zijn ingesteld voor de veiligheid van kinderen.",
+    "imageUrl": "images/school-zone-30.png"
+  },
+  {
+    "id": 20,
+    "question": "Wat betekent een witte streep over de rijbaan voor een stoplicht?",
+    "options": [
+      "Parkeerplaats",
+      "Stopstreep",
+      "Inhaalverbod",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Een witte streep over de rijbaan voor een stoplicht is een stopstreep. Je moet hier stoppen bij rood licht. Dit geldt voor alle verkeersdeelnemers.",
+    "imageUrl": "images/stop-line.png"
+  },
+  {
+    "id": 21,
+    "question": "Wanneer gebruik je de richtingaanwijzer?",
+    "options": [
+      "Alleen bij afslaan",
+      "Bij alle richtingsveranderingen",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "SIGNALING",
+    "explanation": "De richtingaanwijzer moet gebruikt worden bij alle richtingsveranderingen: afslaan, inhalen, van rijstrook wisselen, parkeren en wegrijden.",
+    "imageUrl": "images/indicator-usage.png"
+  },
+  {
+    "id": 22,
+    "question": "Wat betekent een rood driehoekig bord met een witte rand?",
+    "options": [
+      "Waarschuwing",
+      "Verbod",
+      "Gebod",
+      "Informatie"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_SIGNS",
+    "explanation": "Rode driehoekige borden met witte rand zijn verbodsborden. Ze geven aan dat iets verboden is, zoals verbod te parkeren of in te halen.",
+    "imageUrl": "images/prohibition-sign.png"
+  },
+  {
+    "id": 23,
+    "question": "Hoe lang moet je richtingaanwijzer gebruiken voor een afslag?",
+    "options": [
+      "50 meter",
+      "100 meter",
+      "150 meter",
+      "200 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SIGNALING",
+    "explanation": "De richtingaanwijzer moet minstens 100 meter voor de afslag gebruikt worden. Dit geeft andere weggebruikers voldoende tijd om te reageren.",
+    "imageUrl": "images/indicator-timing.png"
+  },
+  {
+    "id": 24,
+    "question": "Wat betekent een blauw cirkelvormig bord met een wit cijfer?",
+    "options": [
+      "Maximumsnelheid",
+      "Minimumsnelheid",
+      "Gemiddelde snelheid",
+      "Snelheidslimiet einde"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw cirkelvormig bord met een wit cijfer geeft een minimumsnelheid aan. Je moet minstens deze snelheid aanhouden.",
+    "imageUrl": "images/minimum-speed-sign.png"
+  },
+  {
+    "id": 25,
+    "question": "Wat moet je doen bij een geel kruis boven de rijbaan?",
+    "options": [
+      "Doorgaan",
+      "Rijstrook verlaten",
+      "Snelheid verhogen",
+      "Links aanhouden"
+    ],
+    "correctAnswer": 1,
+    "category": "TRAFFIC_MANAGEMENT",
+    "explanation": "Een geel kruis boven een rijstrook betekent dat deze rijstrook gesloten is. Verlaat de rijstrook zo snel als veilig kan.",
+    "imageUrl": "images/lane-closed.png"
+  },
+  {
+    "id": 26,
+    "question": "Wat betekent een witte zigzaglijn op de weg?",
+    "options": [
+      "Parkeerverbod",
+      "Inrijverbod",
+      "Voetgangersoversteekplaats",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 2,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Witte zigzaglijnen markeren een voetgangersoversteekplaats. Je mag hier niet parkeren of stoppen. Geef voetgangers altijd voorrang.",
+    "imageUrl": "images/zebra-crossing.png"
+  },
+  {
+    "id": 27,
+    "question": "Wanneer moet je voorrang verlenen aan voetgangers?",
+    "options": [
+      "Alleen bij zebrapad",
+      "Altijd bij oversteken",
+      "Alleen bij kinderen",
+      "Alleen bij senioren"
+    ],
+    "correctAnswer": 1,
+    "category": "RIGHT_OF_WAY",
+    "explanation": "Voetgangers hebben altijd voorrang bij het oversteken, zowel bij zebrapaden als bij oversteekplaatsen zonder markering. Stop altijd.",
+    "imageUrl": "images/pedestrian-right-of-way.png"
+  },
+  {
+    "id": 28,
+    "question": "Wat betekent een groen verkeerslicht?",
+    "options": [
+      "Doorgaan",
+      "Stoppen",
+      "Waarschuwing",
+      "Snelheid verlagen"
+    ],
+    "correctAnswer": 0,
+    "category": "TRAFFIC_LIGHTS",
+    "explanation": "Groen licht betekent doorgaan, maar let op op andere verkeersdeelnemers die de weg nog kruisen. Blijft alert en pas je snelheid aan.",
+    "imageUrl": "images/green-traffic-light.png"
+  },
+  {
+    "id": 29,
+    "question": "Hoe ver moet je van een spoorwegovergang parkeren?",
+    "options": [
+      "5 meter",
+      "10 meter",
+      "15 meter",
+      "20 meter"
+    ],
+    "correctAnswer": 2,
+    "category": "PARKING_RULES",
+    "explanation": "Je mag niet parkeren binnen 15 meter van een spoorwegovergang. Dit geldt voor beide kanten van de overgang. Dit is voor de veiligheid bij slagbomen.",
+    "imageUrl": "images/no-parking-railway.png"
+  },
+  {
+    "id": 30,
+    "question": "Wat betekent een blauw rechthoekig bord met een witte P?",
+    "options": [
+      "Parkeerverbod",
+      "Parkeerplaats",
+      "Parkeerduur",
+      "Betaald parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw rechthoekig bord met een witte P geeft een parkeerplaats aan. Let op eventuele aanvullende borden met tijden of betalingsinstructies.",
+    "imageUrl": "images/parking-sign.png"
+  },
+  {
+    "id": 31,
+    "question": "Wanneer gebruik je de mistlampen?",
+    "options": [
+      "Altijd bij regen",
+      "Bij mist of sneeuw met zicht minder dan 200m",
+      "Alleen bij nachtelijke mist",
+      "Bij elke vorm van neerslag"
+    ],
+    "correctAnswer": 1,
+    "category": "LIGHTING",
+    "explanation": "Mistlampen gebruik je bij mist of sneeuw wanneer het zicht minder is dan 200 meter. Ze geven betere zichtbaarheid maar kunnen andere verblinden bij normaal zicht.",
+    "imageUrl": "images/fog-lights-usage.png"
+  },
+  {
+    "id": 32,
+    "question": "Wat betekent een witte streep dwars over de rijbaan?",
+    "options": [
+      "Stoplijn",
+      "Parkeerplaats",
+      "Inrijverbod",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 0,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Een witte streep dwars over de rijbaan is een stoplijn. Je moet hier stoppen voor verkeer van rechts of bij verkeerslichten.",
+    "imageUrl": "images/stop-line-marking.png"
+  },
+  {
+    "id": 33,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 50 km/u?",
+    "options": [
+      "15 meter",
+      "25 meter",
+      "35 meter",
+      "45 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 50 km/u moet je minstens 25 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-50.png"
+  },
+  {
+    "id": 34,
+    "question": "Wat moet je doen bij een gele lijn aan de rand van de weg?",
+    "options": [
+      "Niets bijzonders",
+      "Parkeerverbod",
+      "Stopverbod",
+      "Snelheid verlagen"
+    ],
+    "correctAnswer": 1,
+    "category": "PARKING_RULES",
+    "explanation": "Een gele lijn aan de rand van de weg betekent parkeerverbod. Dit geldt voor de hele lengte van de markering. Er kunnen uitzonderingen zijn met borden.",
+    "imageUrl": "images/yellow-line-parking-ban.png"
+  },
+  {
+    "id": 35,
+    "question": "Wanneer moet je voorrang verlenen aan tram?",
+    "options": [
+      "Alleen bij tramhalte",
+      "Altijd bij tramrails",
+      "Alleen bij overstekende tram",
+      "Alleen bij tram van rechts"
+    ],
+    "correctAnswer": 2,
+    "category": "RIGHT_OF_WAY",
+    "explanation": "Trams hebben altijd voorrang bij het verlaten van tramhaltes en bij oversteken. Dit geldt ook wanneer trams van rechts komen.",
+    "imageUrl": "images/tram-right-of-way.png"
+  },
+  {
+    "id": 36,
+    "question": "Wat betekent een blauw vierkant bord met een witte fiets?",
+    "options": [
+      "Fietsverbod",
+      "Fietsers toegestaan",
+      "Fietsers hebben voorrang",
+      "Fietspad"
+    ],
+    "correctAnswer": 3,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw vierkant bord met een witte fiets geeft een fietspad aan. Fietsers moeten dit pad gebruiken. Andere weggebruikers mogen hier niet rijden.",
+    "imageUrl:": "images/bicycle-path-sign.png"
+  },
+  {
+    "id": 37,
+    "question": "Hoe ver van een bushalte mag je niet parkeren?",
+    "options": [
+      "5 meter",
+      "12 meter",
+      "15 meter",
+      "25 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "PARKING_RULES",
+    "explanation": "Je mag niet parkeren binnen 12 meter van een bushalte. Dit geldt voor beide kanten van de halte. Dit zorgt voor vrije toegang voor bussen.",
+    "imageUrl": "images/no-parking-bus-stop.png"
+  },
+  {
+    "id": 38,
+    "question": "Wat moet je doen bij een politieauto met zwaailicht en sirene?",
+    "options": [
+      "Doorgaan",
+      "Naar rechts en stoppen",
+      "Links aanhouden",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "EMERGENCY_VEHICLES",
+    "explanation": "Bij naderende hulpdiensten moet je direct naar rechts uitwijken en stoppen. Dit geldt voor alle hulpdiensten met zwaailicht en sirene.",
+    "videoUrl": "videos/police-emergency.mp4"
+  },
+  {
+    "id": 39,
+    "question": "Wat betekent een witte pijl op de weg?",
+    "options": [
+      "Richtingaanwijzer",
+      "Inhaalverbod",
+      "Parkeerplaats",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 0,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Witte pijlen op de weg zijn richtingaanwijzers. Ze geven de richting aan waarin je moet rijden. Volg altijd de pijlrichting.",
+    "imageUrl": "images/direction-arrows.png"
+  },
+  {
+    "id": 40,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 80 km/u?",
+    "options": [
+      "40 meter",
+      "50 meter",
+      "60 meter",
+      "70 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 80 km/u moet je minstens 50 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-80.png"
+  },
+  {
+    "id": 41,
+    "question": "Wat betekent een rood cirkelvormig bord met een witte rand?",
+    "options": [
+      "Gebod",
+      "Verbod",
+      "Waarschuwing",
+      "Informatie"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_SIGNS",
+    "explanation": "Rode cirkelvormige borden met witte rand zijn verbodsborden. Ze geven aan dat iets verboden is, zoals parkeren of inhalen.",
+    "imageUrl": "images/prohibition-circle.png"
+  },
+  {
+    "id": 42,
+    "question": "Wanneer gebruik je de ruitenwissers?",
+    "options": [
+      "Alleen bij regen",
+      "Bij neerslag of vuil",
+      "Alleen bij sneeuw",
+      "Altijd overdag"
+    ],
+    "correctAnswer": 1,
+    "category": "VEHICLE_MAINTENANCE",
+    "explanation": "Ruitenwissers gebruik je bij alle vormen van neerslag (regen, sneeuw) en bij vuil op de voorruit. Dit zorgt voor goed zicht.",
+    "imageUrl": "images/windshield-wipers.png"
+  },
+  {
+    "id": 43,
+    "question": "Wat moet je doen bij een gele lijn op de weg?",
+    "options": [
+      "Niets bijzonders",
+      "Let op voor gevaren",
+      "Snelheid verhogen",
+      "Stoppen"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Gele lijnen op de weg waarschuwen voor gevaren zoals scherpe bochten, kruispunten of obstakels. Verlaag je snelheid en wees extra alert.",
+    "imageUrl": "images/yellow-line-hazard.png"
+  },
+  {
+    "id": 44,
+    "question": "Hoe ver van een spoorwegovergang moet je stoppen?",
+    "options": [
+      "1 meter",
+      "3 meter",
+      "5 meter",
+      "10 meter"
+    ],
+    "correctAnswer": 2,
+    "category": "RAILWAY_RULES",
+    "explanation": "Je moet minstens 5 meter voor een spoorwegovergang stoppen als de slagbomen sluiten. Dit is voor je eigen veiligheid.",
+    "imageUrl": "images/railway-stop-distance.png"
+  },
+  {
+    "id": 45,
+    "question": "Wat betekent een blauw driehoekig bord met een witte pijl?",
+    "options": [
+      "Verplichte richting",
+      "Richtingaanwijzer",
+      "Parkeerplaats",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 0,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw driehoekig bord met een witte pijl geeft een verplichte richting aan. Je moet in deze richting verder rijden.",
+    "imageUrl": "images/blue-direction-triangle.png"
+  },
+  {
+    "id": 46,
+    "question": "Wanneer moet je voorrang verlenen aan bestemmingsverkeer?",
+    "options": [
+      "Altijd",
+      "Alleen bij borden",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 0,
+    "category": "RIGHT_OF_WAY",
+    "explanation": "Bestemmingsverkeer heeft altijd voorrang. Dit zijn voertuigen die een bepaalde locatie moeten bereiken zoals hulpdiensten of afvalwagens.",
+    "imageUrl": "images/destination-traffic.png"
+  },
+  {
+    "id": 47,
+    "question": "Wat moet je doen bij een oranje verkeerslicht?",
+    "options": [
+      "Stoppen",
+      "Doorgaan",
+      "Snelheid verhogen",
+      "Waarschuwen"
+    ],
+    "correctAnswer": 0,
+    "category": "TRAFFIC_LIGHTS",
+    "explanation": "Oranje verkeerslicht is een waarschuwing dat rood komt. Je moet stoppen als dit veilig kan. Ben je te dichtbij, dan mag je doorrijden.",
+    "imageUrl": "images/orange-traffic-light.png"
+  },
+  {
+    "id": 48,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 120 km/u?",
+    "options": [
+      "80 meter",
+      "100 meter",
+      "120 meter",
+      "140 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 120 km/u moet je minstens 100 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-120.png"
+  },
+  {
+    "id": 49,
+    "question": "Wat betekent een blauw rechthoekig bord met een witte H?",
+    "options": [
+      "Ziekenhuis",
+      "Hotel",
+      "Hulppost",
+      "Haven"
+    ],
+    "correctAnswer": 0,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw rechthoekig bord met een witte H geeft een ziekenhuis aan. Dit is een herkenningsteken voor medische voorzieningen.",
+    "imageUrl": "images/hospital-sign.png"
+  },
+  {
+    "id": 50,
+    "question": "Wanneer moet je voorrang verlenen aan landbouwvoertuigen?",
+    "options": [
+      "Alleen bij borden",
+      "Altijd bij smalle wegen",
+      "Alleen bij kruispunten",
+      "Nooit"
+    ],
+    "correctAnswer": 1,
+    "category": "RIGHT_OF_WAY",
+    "explanation": "Landbouwvoertuigen hebben voorrang op smalle landelijke wegen. Dit geldt voor tractoren en andere landbouwvoertuigen.",
+    "imageUrl": "images/agricultural-vehicle-right-of-way.png"
+  },
+  {
+    "id": 51,
+    "question": "Wat betekent een witte pijl op een blauw vierkant bord?",
+    "options": [
+      "Verplichte richting",
+      "Richtingaanwijzer",
+      "Parkeerplaats",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 0,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een witte pijl op een blauw vierkant bord geeft een verplichte richting aan. Je moet in deze richting verder rijden.",
+    "imageUrl": "images/blue-direction-arrow.png"
+  },
+  {
+    "id": 52,
+    "question": "Hoe ver van een vuurhydrant mag je niet parkeren?",
+    "options": [
+      "1 meter",
+      "3 meter",
+      "5 meter",
+      "10 meter"
+    ],
+    "correctAnswer": 2,
+    "category": "PARKING_RULES",
+    "explanation": "Je mag niet parkeren binnen 5 meter van een vuurhydrant. Dit geldt voor alle kanten van de hydrant. Dit is voor de toegankelijkheid van brandweer.",
+    "imageUrl": "images/no-parking-fire-hydrant.png"
+  },
+  {
+    "id": 53,
+    "question": "Wat moet je doen bij een gele lijn in het midden van de weg?",
+    "options": [
+      "Niets bijzonders",
+      "Let op voor inhalen",
+      "Inhaalverbod",
+      "Snelheid verlagen"
+    ],
+    "correctAnswer": 2,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Een gele lijn in het midden van de weg betekent inhaalverbod. Dit geldt voor de hele lengte van de lijn. Er kunnen uitzonderingen zijn.",
+    "imageUrl": "images/yellow-line-no-overtaking.png"
+  },
+  {
+    "id": 54,
+    "question": "Wanneer gebruik je de claxon?",
+    "options": [
+      "Alleen bij gevaar",
+      "Altijd bij oversteken",
+      "Alleen bij parkeren",
+      "Alleen bij nacht"
+    ],
+    "correctAnswer": 0,
+    "category": "SOUND_SIGNALS",
+    "explanation": "De claxon mag alleen gebruikt worden bij gevaar of om een waarschuwing te geven. Overmatig gebruik is verboden en kan beboet worden.",
+    "imageUrl": "images/horn-usage.png"
+  },
+  {
+    "id": 55,
+    "question": "Wat betekent een blauw cirkelvormig bord met een wit cijfer 50?",
+    "options": [
+      "Maximumsnelheid 50 km/u",
+      "Minimumsnelheid 50 km/u",
+      "Gemiddelde snelheid 50 km/u",
+      "Snelheidslimiet einde"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw cirkelvormig bord met wit cijfer 50 geeft een minimumsnelheid van 50 km/u aan. Je moet minstens deze snelheid aanhouden.",
+    "imageUrl": "images/minimum-speed-50.png"
+  },
+  {
+    "id": 56,
+    "question": "Hoe groot moet de afstand zijn tussen jou en de voorligger bij 90 km/u?",
+    "options": [
+      "60 meter",
+      "70 meter",
+      "80 meter",
+      "90 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 90 km/u moet je minstens 70 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-90.png"
+  },
+  {
+    "id": 57,
+    "question": "Wat betekent een witte streep dwars over de rijbaan bij een kruispunt?",
+    "options": [
+      "Parkeerplaats",
+      "Stoplijn",
+      "Inrijverbod",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Een witte streep dwars over de rijbaan bij een kruispunt is een stoplijn. Je moet hier stoppen bij verkeer van rechts of bij verkeerslichten.",
+    "imageUrl": "images/intersection-stop-line.png"
+  },
+  {
+    "id": 58,
+    "question": "Wanneer moet je voorrang verlenen aan voetgangers op een zebrapad?",
+    "options": [
+      "Alleen bij kinderen",
+      "Altijd",
+      "Alleen bij senioren",
+      "Alleen bij drukte"
+    ],
+    "correctAnswer": 1,
+    "category": "RIGHT_OF_WAY",
+    "explanation": "Voetgangers hebben altijd voorrang op zebrapaden. Dit geldt voor alle voetgangers, ongeacht leeftijd of situatie. Stop altijd.",
+    "imageUrl": "images/zebra-crossing-right-of-way.png"
+  },
+  {
+    "id": 59,
+    "question": "Wat betekent een blauw vierkant bord met een witte tankstation pomp?",
+    "options": [
+      "Tankstation",
+      "Parkeerplaats",
+      "Hulppost",
+      "Snelheidslimiet"
+    ],
+    "correctAnswer": 0,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw vierkant bord met een witte tankstation pomp geeft een tankstation aan. Dit is een herkenningsteken voor brandstofvoorzieningen.",
+    "imageUrl": "images/gas-station-sign.png"
+  },
+  {
+    "id": 60,
+    "question": "Hoe ver van een kruispunt moet je stoppen?",
+    "options": [
+      "1 meter",
+      "2 meter",
+      "3 meter",
+      "5 meter"
+    ],
+    "correctAnswer": 2,
+    "category": "STOPPING_RULES",
+    "explanation": "Je moet minstens 3 meter voor een kruispunt stoppen als verkeer van rechts komt. Dit geeft goed zicht en veiligheid voor alle verkeersdeelnemers.",
+    "imageUrl": "images/intersection-stop-distance.png"
+  }
+]

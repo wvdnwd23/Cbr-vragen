@@ -1,0 +1,842 @@
+[
+  {
+    "id": 241,
+    "question": "Wat doe je bij aquaplaning?",
+    "options": [
+      "Hard remmen",
+      "Gas loslaten en rustig sturen",
+      "Snel sturen",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "EMERGENCY_SITUATIONS",
+    "explanation": "Bij aquaplaning: gas loslaten, niet remmen of sturen, wacht tot de banden weer grip hebben. Houd het stuur recht en blijf kalm.",
+    "videoUrl": "videos/aquaplaning.mp4"
+  },
+  {
+    "id": 242,
+    "question": "Wat doe je bij een klapband?",
+    "options": [
+      "Hard remmen",
+      "Gas loslaten en rustig naar rechts uitwijken",
+      "Snel sturen",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "EMERGENCY_SITUATIONS",
+    "explanation": "Bij een klapband: gas loslaten, niet remmen, rustig naar rechts uitwijken en stoppen. Houd het stuur recht en blijf kalm.",
+    "videoUrl": "videos/tire-blowout.mp4"
+  },
+  {
+    "id": 243,
+    "question": "Wat doe je bij mist?",
+    "options": [
+      "Groot licht gebruiken",
+      "Dimlicht en mistlampen gebruiken",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "WEATHER_CONDITIONS",
+    "explanation": "Bij mist gebruik je dimlicht en mistlampen. Pas je snelheid aan aan het zicht en houd meer afstand. Groot licht versterkt de mist.",
+    "imageUrl": "images/driving-in-fog.png"
+  },
+  {
+    "id": 244,
+    "question": "Wat doe je bij ijzel?",
+    "options": [
+      "Snel remmen",
+      "Snelheid aanpassen en gladheid voorzien",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "WINTER_CONDITIONS",
+    "explanation": "Bij ijzel pas je snelheid aan en anticipeer op gladheid. Gebruik winterbanden en houd extra afstand. Vermijd plotselinge bewegingen.",
+    "imageUrl": "images/driving-on-ice.png"
+  },
+  {
+    "id": 245,
+    "question": "Wat doe je bij sneeuw?",
+    "options": [
+      "Snel remmen",
+      "Snelheid aanpassen en winterbanden gebruiken",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "WINTER_CONDITIONS",
+    "explanation": "Bij sneeuw pas je snelheid aan en gebruik winterbanden. Houd extra afstand en vermijd plotselinge bewegingen. Rijd in een hogere versnelling.",
+    "imageUrl": "images/driving-in-snow.png"
+  },
+  {
+    "id": 246,
+    "question": "Wat doe je bij regen?",
+    "options": [
+      "Snelheid verhogen",
+      "Snelheid aanpassen en meer afstand houden",
+      "Dicht op de voorligger rijden",
+      "Groot licht gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "WEATHER_CONDITIONS",
+    "explanation": "Bij regen pas je snelheid aan en houd meer afstand. Gebruik dimlicht en ruitenwissers. Vermijd aquaplaning door snelheid aan te passen.",
+    "imageUrl": "images/driving-in-rain.png"
+  },
+  {
+    "id": 247,
+    "question": "Wat doe je bij een motorstoring?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "MECHANICAL_FAILURE",
+    "explanation": "Bij een motorstoring moet je zo snel mogelijk veilig stoppen. Gebruik de vluchtstrook of parkeerplaats. Zet waarschuwingslichten aan.",
+    "imageUrl": "images/engine-breakdown.png"
+  },
+  {
+    "id": 248,
+    "question": "Wat doe je bij een ongeval?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "ACCIDENT_RESPONSE",
+    "explanation": "Bij een ongeval moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112 bij ernstige ongevallen.",
+    "imageUrl": "images/accident-response.png"
+  },
+  {
+    "id": 249,
+    "question": "Wat doe je bij een brand in de auto?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen en uitstappen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "FIRE_EMERGENCY",
+    "explanation": "Bij een brand moet je zo snel mogelijk veilig stoppen en uitstappen. Verlaat de auto en ga naar een veilige afstand. Bel 112.",
+    "imageUrl": "images/car-fire-emergency.png"
+  },
+  {
+    "id": 250,
+    "question": "Wat doe je bij een oververhitte motor?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "OVERHEATING",
+    "explanation": "Bij een oververhitte motor moet je zo snel mogelijk veilig stoppen. Laat de motor afkoelen en controleer koelvloeistof. Bel hulp bij problemen.",
+    "imageUrl": "images/engine-overheating.png"
+  },
+  {
+    "id": 251,
+    "question": "Wat doe je bij een lekke radiator?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "COOLING_FAILURE",
+    "explanation": "Bij een lekke radiator moet je zo snel mogelijk veilig stoppen. Laat de motor afkoelen en controleer koelvloeistof. Bel hulp bij problemen.",
+    "imageUrl:": "images/radiator-leak-emergency.png"
+  },
+  {
+    "id": 252,
+    "question": "Wat doe je bij een klapband op de snelweg?",
+    "options": [
+      "Hard remmen",
+      "Gas loslaten en naar vluchtstrook uitwijken",
+      "Snel sturen",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "HIGHWAY_EMERGENCY",
+    "explanation": "Bij een klapband op de snelweg: gas loslaten, niet remmen, naar vluchtstrook uitwijken. Houd het stuur recht en blijf kalm.",
+    "imageUrl": "images/highway-tire-blowout.png"
+  },
+  {
+    "id": 253,
+    "question": "Wat doe je bij een ongeval met gewonden?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en eerste hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "FIRST_AID",
+    "explanation": "Bij een ongeval met gewonden moet je stoppen en eerste hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl": "images/first-aid-accident.png"
+  },
+  {
+    "id": 254,
+    "question": "Wat doe je bij een storing in de remmen?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_FAILURE",
+    "explanation": "Bij een storing in de remmen moet je zo snel mogelijk veilig stoppen. Gebruik de handrem en zoek een veilige uitwijkmogelijkheid. Bel hulp.",
+    "imageUrl": "images/brake-failure-emergency.png"
+  },
+  {
+    "id": 255,
+    "question": "Wat doe je bij een ongeval met dieren?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "ANIMAL_ACCIDENT",
+    "explanation": "Bij een ongeval met dieren moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112 bij gewonden.",
+    "imageUrl": "images/animal-accident-response.png"
+  },
+  {
+    "id": 256,
+    "question": "Wat doe je bij een lekke band op de snelweg?",
+    "options": [
+      "Hard remmen",
+      "Gas loslaten en naar vluchtstrook uitwijken",
+      "Snel sturen",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "TIRE_EMERGENCY",
+    "explanation": "Bij een lekke band op de snelweg: gas loslaten, niet remmen, naar vluchtstrook uitwijken. Houd het stuur recht en blijf kalm.",
+    "imageUrl": "images/tire-emergency-highway.png"
+  },
+  {
+    "id": 257,
+    "question": "Wat doe je bij een oververhitte remmen?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_OVERHEATING",
+    "explanation": "Bij oververhitte remmen moet je zo snel mogelijk veilig stoppen. Laat de remmen afkoelen en gebruik de motorrem. Bel hulp bij problemen.",
+    "imageUrl": "images/brake-overheating-emergency.png"
+  },
+  {
+    "id": 258,
+    "question": "Wat doe je bij een ongeval met stoffelijke overschot?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "SERIOUS_ACCIDENT",
+    "explanation": "Bij een ongeval met stoffelijke overschot moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl": "images/serious-accident-response.png"
+  },
+  {
+    "id": 259,
+    "question": "Wat doe je bij een lekke oliepan?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "OIL_LEAK",
+    "explanation": "Bij een lekke oliepan moet je zo snel mogelijk veilig stoppen. Controleer oliepeil en bijvullen indien nodig. Bel hulp bij problemen.",
+    "imageUrl": "images/oil-leak-emergency.png"
+  },
+  {
+    "id": 260,
+    "question": "Wat doe je bij een ongeval met brandstoflekkage?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en veiligheidsmaatregelen nemen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "FUEL_EMERGENCY",
+    "explanation": "Bij brandstoflekkage moet je stoppen en veiligheidsmaatregelen nemen. Verlaat de auto en ga naar een veilige afstand. Bel 112.",
+    "imageUrl": "images/fuel-leak-emergency.png"
+  },
+  {
+    "id": 261,
+    "question": "Wat doe je bij een storing in de stuurinrichting?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "STEERING_FAILURE",
+    "explanation": "Bij een storing in de stuurinrichting moet je zo snel mogelijk veilig stoppen. Gebruik de handrem en zoek een veilige uitwijkmogelijkheid. Bel hulp.",
+    "imageUrl": "images/steering-failure-emergency.png"
+  },
+  {
+    "id": 262,
+    "question": "Wat doe je bij een ongeval met elektrische leidingen?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en veiligheidsmaatregelen nemen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "ELECTRICAL_EMERGENCY",
+    "explanation": "Bij elektrische leidingen moet je stoppen en veiligheidsmaatregelen nemen. Verlaat de auto en ga naar een veilige afstand. Bel 112.",
+    "imageUrl:": "images/electrical-emergency.png"
+  },
+  {
+    "id": 263,
+    "question": "Wat doe je bij een lekke radiator op de snelweg?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "COOLING_EMERGENCY",
+    "explanation": "Bij een lekke radiator moet je zo snel mogelijk veilig stoppen. Laat de motor afkoelen en controleer koelvloeistof. Bel hulp bij problemen.",
+    "imageUrl:": "images/radiator-emergency-highway.png"
+  },
+  {
+    "id": 264,
+    "question": "Wat doe je bij een ongeval met gevaarlijke stoffen?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en veiligheidsmaatregelen nemen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "HAZARDOUS_MATERIALS",
+    "explanation": "Bij gevaarlijke stoffen moet je stoppen en veiligheidsmaatregelen nemen. Verlaat de auto en ga naar een veilige afstand. Bel 112.",
+    "imageUrl": "images/hazardous-materials-emergency.png"
+  },
+  {
+    "id": 265,
+    "question": "Wat doe je bij een storing in de verlichting?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "LIGHTING_EMERGENCY",
+    "explanation": "Bij een storing in de verlichting moet je zo snel mogelijk veilig stoppen. Gebruik waarschuwingslichten en plaats gevarendriehoek. Bel hulp.",
+    "imageUrl:": "images/lighting-emergency.png"
+  },
+  {
+    "id": 266,
+    "question": "Wat doe je bij een lekke band in de stad?",
+    "options": [
+      "Hard remmen",
+      "Gas loslaten en veilig stoppen",
+      "Snel sturen",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "URBAN_EMERGENCY",
+    "explanation": "Bij een lekke band in de stad: gas loslaten, veilig stoppen. Houd het stuur recht en blijf kalm. Zoek een veilige parkeerplaats.",
+    "imageUrl:": "images/urban-tire-emergency.png"
+  },
+  {
+    "id": 267,
+    "question": "Wat doe je bij een ongeval met meerdere voertuigen?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "MULTI_VEHICLE_ACCIDENT",
+    "explanation": "Bij een ongeval met meerdere voertuigen moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/multi-vehicle-accident-response.png"
+  },
+  {
+    "id": 268,
+    "question": "Wat doe je bij een storing in de rembekrachtiging?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_BOOSTER_FAILURE",
+    "explanation": "Bij een storing in de rembekrachtiging moet je zo snel mogelijk veilig stoppen. Gebruik de handrem en zoek een veilige uitwijkmogelijkheid. Bel hulp.",
+    "imageUrl:": "images/brake-booster-emergency.png"
+  },
+  {
+    "id": 269,
+    "question": "Wat doe je bij een ongeval met een fietser?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "CYCLIST_ACCIDENT",
+    "explanation": "Bij een ongeval met een fietser moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/cyclist-accident-response.png"
+  },
+  {
+    "id": 270,
+    "question": "Wat doe je bij een lekke olieslang?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "OIL_EMERGENCY",
+    "explanation": "Bij een lekke olieslang moet je zo snel mogelijk veilig stoppen. Controleer oliepeil en bijvullen indien nodig. Bel hulp bij problemen.",
+    "imageUrl:": "images/oil-hose-emergency.png"
+  },
+  {
+    "id": 271,
+    "question": "Wat doe je bij een ongeval met een voetganger?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "PEDESTRIAN_ACCIDENT",
+    "explanation": "Bij een ongeval met een voetganger moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/pedestrian-accident-response.png"
+  },
+  {
+    "id": 272,
+    "question": "Wat doe je bij een storing in de brandstofpomp?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "FUEL_SYSTEM_EMERGENCY",
+    "explanation": "Bij een storing in de brandstofpomp moet je zo snel mogelijk veilig stoppen. Gebruik waarschuwingslichten en plaats gevarendriehoek. Bel hulp.",
+    "imageUrl:": "images/fuel-pump-emergency.png"
+  },
+  {
+    "id": 273,
+    "question": "Wat doe je bij een ongeval met een dier?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "ANIMAL_ACCIDENT_RESPONSE",
+    "explanation": "Bij een ongeval met een dier moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112 bij gewonden.",
+    "imageUrl:": "images/animal-accident-response.png"
+  },
+  {
+    "id": 274,
+    "question": "Wat doe je bij een lekke remleiding?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_LINE_EMERGENCY",
+    "explanation": "Bij een lekke remleiding moet je zo snel mogelijk veilig stoppen. Gebruik de handrem en zoek een veilige uitwijkmogelijkheid. Bel hulp.",
+    "imageUrl:": "images/brake-line-emergency.png"
+  },
+  {
+    "id": 275,
+    "question": "Wat doe je bij een ongeval met een motorrijder?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "MOTORCYCLE_ACCIDENT",
+    "explanation": "Bij een ongeval met een motorrijder moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/motorcycle-accident-response.png"
+  },
+  {
+    "id": 276,
+    "question": "Wat doe je bij een storing in de dynamo?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "ELECTRICAL_EMERGENCY",
+    "explanation": "Bij een storing in de dynamo moet je zo snel mogelijk veilig stoppen. Gebruik waarschuwingslichten en plaats gevarendriehoek. Bel hulp.",
+    "imageUrl:": "images/alternator-emergency.png"
+  },
+  {
+    "id": 277,
+    "question": "Wat doe je bij een ongeval met een tram?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "TRAM_ACCIDENT",
+    "explanation": "Bij een ongeval met een tram moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/tram-accident-response.png"
+  },
+  {
+    "id": 278,
+    "question": "Wat doe je bij een lekke koelslang?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "COOLING_EMERGENCY",
+    "explanation": "Bij een lekke koelslang moet je zo snel mogelijk veilig stoppen. Laat de motor afkoelen en controleer koelvloeistof. Bel hulp bij problemen.",
+    "imageUrl:": "images/cooling-hose-emergency.png"
+  },
+  {
+    "id": 279,
+    "question": "Wat doe je bij een ongeval met een bus?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "BUS_ACCIDENT",
+    "explanation": "Bij een ongeval met een bus moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/bus-accident-response.png"
+  },
+  {
+    "id": 280,
+    "question": "Wat doe je bij een storing in de stuurbekrachtiging?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "STEERING_EMERGENCY",
+    "explanation": "Bij een storing in de stuurbekrachtiging moet je zo snel mogelijk veilig stoppen. Gebruik meer kracht bij het sturen en zoek een veilige plek. Bel hulp.",
+    "imageUrl:": "images/steering-assist-emergency.png"
+  },
+  {
+    "id": 281,
+    "question": "Wat doe je bij een ongeval met een vrachtwagen?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "TRUCK_ACCIDENT",
+    "explanation": "Bij een ongeval met een vrachtwagen moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/truck-accident-response.png"
+  },
+  {
+    "id": 282,
+    "question": "Wat doe je bij een lekke brandstoftank?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en veiligheidsmaatregelen nemen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "FUEL_TANK_EMERGENCY",
+    "explanation": "Bij een lekke brandstoftank moet je stoppen en veiligheidsmaatregelen nemen. Verlaat de auto en ga naar een veilige afstand. Bel 112.",
+    "imageUrl:": "images/fuel-tank-leak-emergency.png"
+  },
+  {
+    "id": 283,
+    "question": "Wat doe je bij een ongeval met een schoolbus?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "SCHOOL_BUS_ACCIDENT",
+    "explanation": "Bij een ongeval met een schoolbus moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/school-bus-accident-response.png"
+  },
+  {
+    "id": 284,
+    "question": "Wat doe je bij een storing in de airco?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "A/C_EMERGENCY",
+    "explanation": "Bij een storing in de airco moet je zo snel mogelijk veilig stoppen. Gebruik waarschuwingslichten en plaats gevarendriehoek. Bel hulp.",
+    "imageUrl:": "images/air-conditioning-emergency.png"
+  },
+  {
+    "id": 285,
+    "question": "Wat doe je bij een ongeval met een ambulance?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "AMBULANCE_ACCIDENT",
+    "explanation": "Bij een ongeval met een ambulance moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/ambulance-accident-response.png"
+  },
+  {
+    "id": 286,
+    "question": "Wat doe je bij een lekke remcilinder?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_CYLINDER_EMERGENCY",
+    "explanation": "Bij een lekke remcilinder moet je zo snel mogelijk veilig stoppen. Gebruik de handrem en zoek een veilige uitwijkmogelijkheid. Bel hulp.",
+    "imageUrl:": "images/brake-cylinder-emergency.png"
+  },
+  {
+    "id": 287,
+    "question": "Wat doe je bij een ongeval met een politieauto?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "POLICE_ACCIDENT",
+    "explanation": "Bij een ongeval met een politieauto moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/police-accident-response.png"
+  },
+  {
+    "id": 288,
+    "question": "Wat doe je bij een storing in de versnellingsbak?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "TRANSMISSION_EMERGENCY",
+    "explanation": "Bij een storing in de versnellingsbak moet je zo snel mogelijk veilig stoppen. Gebruik waarschuwingslichten en plaats gevarendriehoek. Bel hulp.",
+    "imageUrl:": "images/transmission-emergency.png"
+  },
+  {
+    "id": 289,
+    "question": "Wat doe je bij een ongeval met een brandweerauto?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "FIRE_TRUCK_ACCIDENT",
+    "explanation": "Bij een ongeval met een brandweerauto moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/fire-truck-accident-response.png"
+  },
+  {
+    "id": 290,
+    "question": "Wat doe je bij een lekke koelvloeistof slang?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "COOLANT_HOSE_EMERGENCY",
+    "explanation": "Bij een lekke koelvloeistof slang moet je zo snel mogelijk veilig stoppen. Laat de motor afkoelen en controleer koelvloeistof. Bel hulp.",
+    "imageUrl:": "images/coolant-hose-emergency.png"
+  },
+  {
+    "id": 291,
+    "question": "Wat doe je bij een ongeval met een elektrische auto?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en veiligheidsmaatregelen nemen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "ELECTRIC_VEHICLE_EMERGENCY",
+    "explanation": "Bij een ongeval met een elektrische auto moet je stoppen en veiligheidsmaatregelen nemen. Verlaat de auto en ga naar een veilige afstand. Bel 112.",
+    "imageUrl:": "images/electric-vehicle-emergency.png"
+  },
+  {
+    "id": 292,
+    "question": "Wat doe je bij een storing in de motor?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "ENGINE_EMERGENCY",
+    "explanation": "Bij een storing in de motor moet je zo snel mogelijk veilig stoppen. Gebruik waarschuwingslichten en plaats gevarendriehoek. Bel hulp.",
+    "imageUrl:": "images/engine-emergency.png"
+  },
+  {
+    "id": 293,
+    "question": "Wat doe je bij een ongeval met een trein?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "TRAIN_ACCIDENT",
+    "explanation": "Bij een ongeval met een trein moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/train-accident-response.png"
+  },
+  {
+    "id": 294,
+    "question": "Wat doe je bij een lekke remleiding?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_EMERGENCY",
+    "explanation": "Bij een lekke remleiding moet je zo snel mogelijk veilig stoppen. Gebruik de handrem en zoek een veilige uitwijkmogelijkheid. Bel hulp.",
+    "imageUrl:": "images/brake-line-emergency.png"
+  },
+  {
+    "id": 295,
+    "question": "Wat doe je bij een ongeval met een tankwagen?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en veiligheidsmaatregelen nemen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "TANKER_EMERGENCY",
+    "explanation": "Bij een ongeval met een tankwagen moet je stoppen en veiligheidsmaatregelen nemen. Verlaat de auto en ga naar een veilige afstand. Bel 112.",
+    "imageUrl:": "images/tanker-accident-response.png"
+  },
+  {
+    "id": 296,
+    "question": "Wat doe je bij een storing in de koppeling?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "CLUTCH_EMERGENCY",
+    "explanation": "Bij een storing in de koppeling moet je zo snel mogelijk veilig stoppen. Gebruik waarschuwingslichten en plaats gevarendriehoek. Bel hulp.",
+    "imageUrl:": "images/clutch-emergency.png"
+  },
+  {
+    "id": 297,
+    "question": "Wat doe je bij een ongeval met een ambulance?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "AMBULANCE_EMERGENCY",
+    "explanation": "Bij een ongeval met een ambulance moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/ambulance-accident-response.png"
+  },
+  {
+    "id": 298,
+    "question": "Wat doe je bij een lekke band tijdens een storm?",
+    "options": [
+      "Hard remmen",
+      "Gas loslaten en veilig stoppen",
+      "Snel sturen",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "WEATHER_EMERGENCY",
+    "explanation": "Bij een lekke band tijdens een storm: gas loslaten, veilig stoppen. Houd het stuur recht en blijf kalm. Zoek een veilige plek.",
+    "imageUrl:": "images/storm-tire-emergency.png"
+  },
+  {
+    "id": 299,
+    "question": "Wat doe je bij een ongeval met een vrachtwagen?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en hulp verlenen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "TRUCK_EMERGENCY",
+    "explanation": "Bij een ongeval met een vrachtwagen moet je stoppen en hulp verlenen. Zet waarschuwingslichten aan en plaats gevarendriehoek. Bel 112.",
+    "imageUrl:": "images/truck-accident-response.png"
+  },
+  {
+    "id": 300,
+    "question": "Wat doe je bij een lekke remvloeistof?",
+    "options": [
+      "Doorgaan rijden",
+      "Zo snel mogelijk veilig stoppen",
+      "Snelheid verhogen",
+      "Dicht op de voorligger rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_FLUID_EMERGENCY",
+    "explanation": "Bij lekkende remvloeistof moet je zo snel mogelijk veilig stoppen. Gebruik de handrem en zoek een veilige uitwijkmogelijkheid. Bel hulp.",
+    "imageUrl:": "images/brake-fluid-emergency.png"
+  }
+]

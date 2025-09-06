@@ -1,0 +1,842 @@
+[
+  {
+    "id": 61,
+    "question": "Wat moet je doen als je bandenspanning te laag is?",
+    "options": [
+      "Niets, dit is normaal",
+      "Bij de eerste gelegenheid corrigeren",
+      "Wachten tot de servicebeurt",
+      "Snelheid aanpassen"
+    ],
+    "correctAnswer": 1,
+    "category": "VEHICLE_MAINTENANCE",
+    "explanation": "Te lage bandenspanning moet zo snel mogelijk gecorrigeerd worden. Dit beïnvloedt de wegligging, brandstofverbruik en slijtage van je banden.",
+    "imageUrl": "images/tire-pressure.png"
+  },
+  {
+    "id": 62,
+    "question": "Hoe vaak moet je olie peilen?",
+    "options": [
+      "Elke maand",
+      "Elke week",
+      "Alleen bij onderhoud",
+      "Elke tankbeurt"
+    ],
+    "correctAnswer": 3,
+    "category": "VEHICLE_MAINTENANCE",
+    "explanation": "Motorolie moet bij elke tankbeurt gecontroleerd worden. Dit voorkomt motorschade door te weinig olie. Controleer altijd op een horizontale ondergrond.",
+    "imageUrl": "images/oil-check.png"
+  },
+  {
+    "id": 63,
+    "question": "Wat betekent een rood lampje op het dashboard?",
+    "options": [
+      "Alles is in orde",
+      "Let op, controle nodig",
+      "Gevaar, stoppen",
+      "Systeem actief"
+    ],
+    "correctAnswer": 2,
+    "category": "WARNING_LIGHTS",
+    "explanation": "Rode waarschuwingslampjes duiden op direct gevaar. Stop veilig en los het probleem op. Rood betekent altijd direct actie ondernemen.",
+    "imageUrl": "images/red-warning-lights.png"
+  },
+  {
+    "id": 64,
+    "question": "Wanneer moet je de remvloeistof vervangen?",
+    "options": [
+      "Elke 10.000 km",
+      "Elke 2 jaar",
+      "Elke 50.000 km",
+      "Alleen bij lekkage"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Remvloeistof moet elke 2 jaar vervangen worden. De vloeistof neemt vocht op wat de remwerking kan beïnvloeden. Dit is cruciaal voor veiligheid.",
+    "imageUrl": "images/brake-fluid.png"
+  },
+  {
+    "id": 65,
+    "question": "Hoe controleer je de remblokken?",
+    "options": [
+      "Door geluid te controleren",
+      "Door visuele inspectie",
+      "Door remweg te meten",
+      "Door dashboard lampjes"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Remblokken moeten visueel geïnspecteerd worden. Controleer de dikte en slijtage. Piepende remmen kunnen wijzen op slijtage.",
+    "imageUrl": "images/brake-pads.png"
+  },
+  {
+    "id": 66,
+    "question": "Wat moet je doen bij een gele waarschuwingslamp op het dashboard?",
+    "options": [
+      "Stoppen en hulp zoeken",
+      "Naar de garage",
+      "Doorgaan rijden",
+      "Snelheid verhogen"
+    ],
+    "correctAnswer": 1,
+    "category": "WARNING_LIGHTS",
+    "explanation": "Gele waarschuwingslampjes duiden op een probleem dat binnenkort aandacht nodig heeft. Bezoek een garage om het probleem te laten controleren.",
+    "imageUrl": "images/yellow-warning-lights.png"
+  },
+  {
+    "id": 67,
+    "question": "Hoe vaak moet je de koelvloeistof controleren?",
+    "options": [
+      "Elke maand",
+      "Elke week",
+      "Elke tankbeurt",
+      "Alleen bij onderhoud"
+    ],
+    "correctAnswer": 2,
+    "category": "COOLING_SYSTEM",
+    "explanation": "Koelvloeistof moet bij elke tankbeurt gecontroleerd worden. Dit voorkomt oververhitting van de motor. Controleer altijd op een koude motor.",
+    "imageUrl": "images/coolant-check.png"
+  },
+  {
+    "id": 68,
+    "question": "Wat betekent een blauw lampje op het dashboard?",
+    "options": [
+      "Gevaar",
+      "Systeem actief",
+      "Controle nodig",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "SYSTEM_INDICATORS",
+    "explanation": "Blauwe lampjes op het dashboard geven aan dat een systeem actief is, zoals groot licht of cruise control. Dit is informatief en geen waarschuwing.",
+    "imageUrl": "images/blue-dashboard-lights.png"
+  },
+  {
+    "id": 69,
+    "question": "Wanneer moet je de ruitenwissers vervangen?",
+    "options": [
+      "Elke 6 maanden",
+      "Elke 12 maanden",
+      "Bij slecht zicht",
+      "Alleen bij defect"
+    ],
+    "correctAnswer": 1,
+    "category": "VEHICLE_MAINTENANCE",
+    "explanation": "Ruitenwissers moeten elke 12 maanden vervangen worden. Slijtage beïnvloedt het schoonmaakvermogen en zichtbaarheid bij regen.",
+    "imageUrl": "images/wiper-blades.png"
+  },
+  {
+    "id": 70,
+    "question": "Hoe controleer je de bandenspanning?",
+    "options": [
+      "Met de hand",
+      "Met bandenspanning meter",
+      "Door geluid",
+      "Door dashboard lampjes"
+    ],
+    "correctAnswer": 1,
+    "category": "TIRE_MAINTENANCE",
+    "explanation": "Bandenspanning moet gecontroleerd worden met een betrouwbare bandenspanning meter. Controleer altijd bij koude banden voor een nauwkeurige meting.",
+    "imageUrl": "images/tire-pressure-gauge.png"
+  },
+  {
+    "id": 71,
+    "question": "Wat moet je doen als de motorolie lamp brandt?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en olie bijvullen",
+      "Snelheid verhogen",
+      "Naar de garage"
+    ],
+    "correctAnswer": 1,
+    "category": "ENGINE_MAINTENANCE",
+    "explanation": "Als de motorolie lamp brandt, moet je stoppen en olie bijvullen. Doorrijden kan motorschade veroorzaken. Controleer het oliepeil.",
+    "imageUrl": "images/oil-pressure-light.png"
+  },
+  {
+    "id": 72,
+    "question": "Hoe vaak moet je de luchtfilters vervangen?",
+    "options": [
+      "Elke 5.000 km",
+      "Elke 10.000 km",
+      "Elke 15.000 km",
+      "Elke 20.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "ENGINE_MAINTENANCE",
+    "explanation": "Luchtfilters moeten elke 15.000 km vervangen worden. Vervuilde filters beïnvloeden de motorprestaties en brandstofverbruik.",
+    "imageUrl": "images/air-filter.png"
+  },
+  {
+    "id": 73,
+    "question": "Wat controleer je bij de APK-keuring?",
+    "options": [
+      "Alleen de banden",
+      "Alles aan de auto",
+      "Alleen de remmen",
+      "Alleen de verlichting"
+    ],
+    "correctAnswer": 1,
+    "category": "VEHICLE_INSPECTION",
+    "explanation": "Bij de APK-keuring wordt alles aan de auto gecontroleerd: remmen, verlichting, banden, uitstoot, carrosserie en veiligheidssystemen.",
+    "imageUrl": "images/apk-inspection.png"
+  },
+  {
+    "id": 74,
+    "question": "Wanneer moet je de ruitensproeier vloeistof bijvullen?",
+    "options": [
+      "Elke maand",
+      "Elke week",
+      "Bij leeg reservoir",
+      "Alleen bij onderhoud"
+    ],
+    "correctAnswer": 2,
+    "category": "VEHICLE_MAINTENANCE",
+    "explanation": "Ruitensproeier vloeistof moet bijgevuld worden als het reservoir leeg is. Dit zorgt voor goed zicht bij vuil of insecten.",
+    "imageUrl": "images/washer-fluid.png"
+  },
+  {
+    "id": 75,
+    "question": "Hoe controleer je de accu?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door spanning te meten",
+      "Door starten"
+    ],
+    "correctAnswer": 2,
+    "category": "ELECTRICAL_SYSTEM",
+    "explanation": "De accu moet gecontroleerd worden door de spanning te meten met een multimeter. Een goede accu heeft 12.6 volt of meer.",
+    "imageUrl": "images/battery-check.png"
+  },
+  {
+    "id": 76,
+    "question": "Wat betekent een groen lampje op het dashboard?",
+    "options": [
+      "Gevaar",
+      "Systeem actief",
+      "Controle nodig",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "SYSTEM_INDICATORS",
+    "explanation": "Groene lampjes op het dashboard geven aan dat een systeem actief is, zoals groot licht of richtingaanwijzer. Dit is informatief.",
+    "imageUrl": "images/green-dashboard-lights.png"
+  },
+  {
+    "id": 77,
+    "question": "Hoe vaak moet je de remvloeistof controleren?",
+    "options": [
+      "Elke maand",
+      "Elke 6 maanden",
+      "Elke 12 maanden",
+      "Elke 24 maanden"
+    ],
+    "correctAnswer": 2,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Remvloeistof moet elke 12 maanden gecontroleerd worden. Controleer het niveau en de kleur. Donkere vloeistof moet vervangen worden.",
+    "imageUrl": "images/brake-fluid-check.png"
+  },
+  {
+    "id": 78,
+    "question": "Wat moet je doen bij een defecte remlicht?",
+    "options": [
+      "Doorgaan rijden",
+      "Naar de garage",
+      "Snelheid verhogen",
+      "Niets doen"
+    ],
+    "correctAnswer": 1,
+    "category": "LIGHTING_MAINTENANCE",
+    "explanation": "Een defecte remlicht moet direct gerepareerd worden. Dit is een veiligheidsrisico voor achterliggers. Bezoek een garage.",
+    "imageUrl": "images/brake-light-defect.png"
+  },
+  {
+    "id": 79,
+    "question": "Hoe controleer je de uitlaatgassen?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door meting",
+      "Door geur"
+    ],
+    "correctAnswer": 2,
+    "category": "EMISSIONS",
+    "explanation": "Uitlaatgassen moeten gemeten worden bij de APK-keuring. De uitstoot moet binnen de wettelijke normen blijven.",
+    "imageUrl": "images/emissions-test.png"
+  },
+  {
+    "id": 80,
+    "question": "Wanneer moet je de koppeling controleren?",
+    "options": [
+      "Elke maand",
+      "Elke 10.000 km",
+      "Bij slijtage symptomen",
+      "Alleen bij onderhoud"
+    ],
+    "correctAnswer": 2,
+    "category": "TRANSMISSION_MAINTENANCE",
+    "explanation": "De koppeling moet gecontroleerd worden bij slijtage symptomen zoals slippen of hoge slipkoppeling. Dit voorkomt defecten.",
+    "imageUrl": "images/clutch-check.png"
+  },
+  {
+    "id": 81,
+    "question": "Wat betekent een oranje waarschuwingslamp op het dashboard?",
+    "options": [
+      "Gevaar, stoppen",
+      "Controle nodig",
+      "Systeem actief",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "WARNING_LIGHTS",
+    "explanation": "Oranje waarschuwingslampjes duiden op een probleem dat binnenkort aandacht nodig heeft. Bezoek een garage voor controle.",
+    "imageUrl": "images/orange-warning-lights.png"
+  },
+  {
+    "id": 82,
+    "question": "Hoe vaak moet je de remblokken vervangen?",
+    "options": [
+      "Elke 10.000 km",
+      "Elke 20.000 km",
+      "Bij slijtage",
+      "Elke 50.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Remblokken moeten vervangen worden bij slijtage. Controleer regelmatig de dikte en luister naar piepende geluiden.",
+    "imageUrl": "images/brake-pad-replacement.png"
+  },
+  {
+    "id": 83,
+    "question": "Wat moet je doen bij een lekke radiator?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en koelvloeistof bijvullen",
+      "Snelheid verhogen",
+      "Naar de garage"
+    ],
+    "correctAnswer": 1,
+    "category": "COOLING_SYSTEM",
+    "explanation": "Bij een lekke radiator moet je stoppen en koelvloeistof bijvullen. Doorrijden kan oververhitting veroorzaken. Let op hete onderdelen.",
+    "imageUrl": "images/radiator-leak.png"
+  },
+  {
+    "id": 84,
+    "question": "Hoe controleer je de stuurinrichting?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door stuurspel te meten",
+      "Door rijden"
+    ],
+    "correctAnswer": 2,
+    "category": "STEERING_MAINTENANCE",
+    "explanation": "De stuurinrichting moet gecontroleerd worden door het stuurspel te meten. Te veel spel kan wijzen op slijtage of defecten.",
+    "imageUrl": "images/steering-check.png"
+  },
+  {
+    "id": 85,
+    "question": "Wat betekent een rood lampje met accu symbool?",
+    "options": [
+      "Accu vol",
+      "Laadprobleem",
+      "Systeem actief",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "ELECTRICAL_SYSTEM",
+    "explanation": "Een rood lampje met accu symbool geeft een laadprobleem aan. Controleer de dynamo en accu. Stoppen kan noodzakelijk zijn.",
+    "imageUrl": "images/battery-warning-light.png"
+  },
+  {
+    "id": 86,
+    "question": "Wanneer moet je de motorolie verversen?",
+    "options": [
+      "Elke 5.000 km",
+      "Elke 10.000 km",
+      "Elke 15.000 km",
+      "Elke 20.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "ENGINE_MAINTENANCE",
+    "explanation": "Motorolie moet elke 15.000 km verversen worden. Dit voorkomt slijtage en houdt de motor schoon. Gebruik de juiste olie specificatie.",
+    "imageUrl": "images/oil-change.png"
+  },
+  {
+    "id": 87,
+    "question": "Hoe controleer je de verlichting?",
+    "options": [
+      "Door dashboard lampjes",
+      "Door visuele inspectie",
+      "Door meting",
+      "Door rijden"
+    ],
+    "correctAnswer": 1,
+    "category": "LIGHTING_MAINTENANCE",
+    "explanation": "Verlichting moet gecontroleerd worden door visuele inspectie van alle lichten. Controleer remlichten, knipperlichten en groot licht.",
+    "imageUrl": "images/lighting-check.png"
+  },
+  {
+    "id": 88,
+    "question": "Wat moet je doen bij een defecte uitlaat?",
+    "options": [
+      "Doorgaan rijden",
+      "Naar de garage",
+      "Snelheid verhogen",
+      "Niets doen"
+    ],
+    "correctAnswer": 1,
+    "category": "EXHAUST_MAINTENANCE",
+    "explanation": "Een defecte uitlaat moet gerepareerd worden. Dit is een veiligheidsrisico en kan leiden te hoge uitstoot. Bezoek een garage.",
+    "imageUrl": "images/exhaust-defect.png"
+  },
+  {
+    "id": 89,
+    "question": "Hoe vaak moet je de banden wisselen?",
+    "options": [
+      "Elke 5.000 km",
+      "Elke 10.000 km",
+      "Elke 15.000 km",
+      "Elke 20.000 km"
+    ],
+    "correctAnswer": 1,
+    "category": "TIRE_MAINTENANCE",
+    "explanation": "Banden moeten elke 10.000 km gewisseld worden voor een gelijkmatige slijtage. Dit verlengt de levensduur en verbetert de veiligheid.",
+    "imageUrl": "images/tire-rotation.png"
+  },
+  {
+    "id": 90,
+    "question": "Wat betekent een groen lampje met olie symbool?",
+    "options": [
+      "Olie vol",
+      "Systeem actief",
+      "Olie druk goed",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "SYSTEM_INDICATORS",
+    "explanation": "Een groen lampje met olie symbool geeft aan dat het olie systeem actief is. Dit is informatief en geen waarschuwing.",
+    "imageUrl": "images/oil-system-active.png"
+  },
+  {
+    "id": 91,
+    "question": "Hoe controleer je de remkracht?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door remweg te meten",
+      "Door rijden"
+    ],
+    "correctAnswer": 2,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Remkracht moet gecontroleerd worden door de remweg te meten. Te lange remweg kan wijzen op slijtage of defecten.",
+    "imageUrl": "images/brake-force-check.png"
+  },
+  {
+    "id": 92,
+    "question": "Wanneer moet je de accu vervangen?",
+    "options": [
+      "Elke 2 jaar",
+      "Elke 3 jaar",
+      "Bij slijtage",
+      "Elke 5 jaar"
+    ],
+    "correctAnswer": 2,
+    "category": "ELECTRICAL_SYSTEM",
+    "explanation": "De accu moet vervangen worden bij slijtage symptomen zoals startproblemen of zwakke verlichting. Controleer regelmatig.",
+    "imageUrl": "images/battery-replacement.png"
+  },
+  {
+    "id": 93,
+    "question": "Wat moet je doen bij een lekke band?",
+    "options": [
+      "Doorgaan rijden",
+      "Stoppen en repareren",
+      "Snelheid verhogen",
+      "Niets doen"
+    ],
+    "correctAnswer": 1,
+    "category": "TIRE_MAINTENANCE",
+    "explanation": "Bij een lekke band moet je stoppen en repareren. Doorrijden kan schade veroorzaken aan de velg. Gebruik een reservewiel of bandenkit.",
+    "imageUrl": "images/flat-tire-repair.png"
+  },
+  {
+    "id": 94,
+    "question": "Hoe controleer je de wieluitlijning?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door slijtage patronen",
+      "Door rijden"
+    ],
+    "correctAnswer": 2,
+    "category": "STEERING_MAINTENANCE",
+    "explanation": "Wieluitlijning moet gecontroleerd worden door slijtage patronen op de banden. Onregelmatige slijtage kan wijzen op een probleem.",
+    "imageUrl": "images/wheel-alignment.png"
+  },
+  {
+    "id": 95,
+    "question": "Wat betekent een rood lampje met rem symbool?",
+    "options": [
+      "Rem vol",
+      "Rem probleem",
+      "Systeem actief",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Een rood lampje met rem symbool geeft een rem probleem aan. Controleer remvloeistof en remblokken. Stoppen kan noodzakelijk zijn.",
+    "imageUrl": "images/brake-warning-light.png"
+  },
+  {
+    "id": 96,
+    "question": "Wanneer moet je de remvloeistof controleren?",
+    "options": [
+      "Elke maand",
+      "Elke 6 maanden",
+      "Elke 12 maanden",
+      "Elke 24 maanden"
+    ],
+    "correctAnswer": 2,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Remvloeistof moet elke 12 maanden gecontroleerd worden. Controleer het niveau en de kleur. Donkere vloeistof moet vervangen worden.",
+    "imageUrl": "images/brake-fluid-check.png"
+  },
+  {
+    "id": 97,
+    "question": "Hoe controleer je de uitlaatgassen?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door meting",
+      "Door geur"
+    ],
+    "correctAnswer": 2,
+    "category": "EMISSIONS",
+    "explanation": "Uitlaatgassen moeten gemeten worden bij de APK-keuring. De uitstoot moet binnen de wettelijke normen blijven.",
+    "imageUrl": "images/exhaust-emissions.png"
+  },
+  {
+    "id": 98,
+    "question": "Wat moet je doen bij een defecte koppeling?",
+    "options": [
+      "Doorgaan rijden",
+      "Naar de garage",
+      "Snelheid verhogen",
+      "Niets doen"
+    ],
+    "correctAnswer": 1,
+    "category": "TRANSMISSION_MAINTENANCE",
+    "explanation": "Een defecte koppeling moet gerepareerd worden. Dit is een veiligheidsrisico en kan leiden tot defecten. Bezoek een garage.",
+    "imageUrl": "images/clutch-defect.png"
+  },
+  {
+    "id": 99,
+    "question": "Hoe vaak moet je de wielophanging controleren?",
+    "options": [
+      "Elke 5.000 km",
+      "Elke 10.000 km",
+      "Elke 15.000 km",
+      "Elke 20.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "SUSPENSION_MAINTENANCE",
+    "explanation": "Wielophanging moet elke 15.000 km gecontroleerd worden. Controleer op slijtage en defecten. Dit beïnvloedt de wegligging.",
+    "imageUrl": "images/suspension-check.png"
+  },
+  {
+    "id": 100,
+    "question": "Wat betekent een rood lampje met motor symbool?",
+    "options": [
+      "Motor vol",
+      "Motor probleem",
+      "Systeem actief",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "ENGINE_MAINTENANCE",
+    "explanation": "Een rood lampje met motor symbool geeft een motor probleem aan. Controleer olie en koeling. Stoppen kan noodzakelijk zijn.",
+    "imageUrl": "images/engine-warning-light.png"
+  },
+  {
+    "id": 101,
+    "question": "Hoe controleer je de veren?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door visuele inspectie",
+      "Door rijden"
+    ],
+    "correctAnswer": 2,
+    "category": "SUSPENSION_MAINTENANCE",
+    "explanation": "Veren moeten gecontroleerd worden door visuele inspectie. Controleer op breuken of slijtage. Dit beïnvloedt de wegligging.",
+    "imageUrl": "images/springs-check.png"
+  },
+  {
+    "id": 102,
+    "question": "Wanneer moet je de banden balanceren?",
+    "options": [
+      "Elke 5.000 km",
+      "Elke 10.000 km",
+      "Bij trillingen",
+      "Elke 20.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "TIRE_MAINTENANCE",
+    "explanation": "Banden moeten gebalanceerd worden bij trillingen in het stuur. Dit verbetert de rijcomfort en verlengt de levensduur.",
+    "imageUrl": "images/tire-balancing.png"
+  },
+  {
+    "id": 103,
+    "question": "Wat betekent een groen lampje met ABS symbool?",
+    "options": [
+      "ABS vol",
+      "ABS actief",
+      "ABS probleem",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_SYSTEM",
+    "explanation": "Een groen lampje met ABS symbool geeft aan dat het ABS systeem actief is. Dit is normaal bij remmen.",
+    "imageUrl": "images/abs-active.png"
+  },
+  {
+    "id": 104,
+    "question": "Hoe controleer je de wielophanging?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door speling te meten",
+      "Door rijden"
+    ],
+    "correctAnswer": 2,
+    "category": "SUSPENSION_MAINTENANCE",
+    "explanation": "Wielophanging moet gecontroleerd worden door speling te meten. Te veel speling kan wijzen op slijtage.",
+    "imageUrl": "images/suspension-play.png"
+  },
+  {
+    "id": 105,
+    "question": "Wanneer moet je de koppeling vervangen?",
+    "options": [
+      "Elke 50.000 km",
+      "Elke 100.000 km",
+      "Bij slijtage",
+      "Elke 150.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "TRANSMISSION_MAINTENANCE",
+    "explanation": "De koppeling moet vervangen worden bij slijtage symptomen zoals slippen of hoge slipkoppeling. Controleer regelmatig.",
+    "imageUrl": "images/clutch-replacement.png"
+  },
+  {
+    "id": 106,
+    "question": "Hoe controleer je de remmen?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door remweg te meten",
+      "Door rijden"
+    ],
+    "correctAnswer": 2,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Remmen moeten gecontroleerd worden door de remweg te meten. Te lange remweg kan wijzen op slijtage.",
+    "imageUrl": "images/brake-check.png"
+  },
+  {
+    "id": 107,
+    "question": "Wat betekent een rood lampje met olie symbool?",
+    "options": [
+      "Olie vol",
+      "Olie probleem",
+      "Systeem actief",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "ENGINE_MAINTENANCE",
+    "explanation": "Een rood lampje met olie symbool geeft een olie probleem aan. Controleer oliepeil en druk. Stoppen kan noodzakelijk zijn.",
+    "imageUrl": "images/oil-warning-light.png"
+  },
+  {
+    "id": 108,
+    "question": "Hoe vaak moet je de wielophanging controleren?",
+    "options": [
+      "Elke 5.000 km",
+      "Elke 10.000 km",
+      "Elke 15.000 km",
+      "Elke 20.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "SUSPENSION_MAINTENANCE",
+    "explanation": "Wielophanging moet elke 15.000 km gecontroleerd worden. Controleer op slijtage en defecten. Dit beïnvloedt de wegligging.",
+    "imageUrl": "images/suspension-inspection.png"
+  },
+  {
+    "id": 109,
+    "question": "Wat moet je doen bij een defecte rem?",
+    "options": [
+      "Doorgaan rijden",
+      "Naar de garage",
+      "Snelheid verhogen",
+      "Niets doen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Een defecte rem moet gerepareerd worden. Dit is een veiligheidsrisico en kan leiden tot defecten. Bezoek een garage.",
+    "imageUrl": "images/brake-defect.png"
+  },
+  {
+    "id": 110,
+    "question": "Hoe controleer je de uitstoot?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door meting",
+      "Door geur"
+    ],
+    "correctAnswer": 2,
+    "category": "EMISSIONS",
+    "explanation": "Uitstoot moet gemeten worden bij de APK-keuring. De uitstoot moet binnen de wettelijke normen blijven.",
+    "imageUrl": "images/emissions-measurement.png"
+  },
+  {
+    "id": 111,
+    "question": "Wanneer moet je de wielophanging vervangen?",
+    "options": [
+      "Elke 50.000 km",
+      "Elke 100.000 km",
+      "Bij slijtage",
+      "Elke 150.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "SUSPENSION_MAINTENANCE",
+    "explanation": "Wielophanging moet vervangen worden bij slijtage symptomen zoals speling of geluid. Controleer regelmatig.",
+    "imageUrl": "images/suspension-replacement.png"
+  },
+  {
+    "id": 112,
+    "question": "Wat betekent een rood lampje met rem symbool?",
+    "options": [
+      "Rem vol",
+      "Rem probleem",
+      "Systeem actief",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Een rood lampje met rem symbool geeft een rem probleem aan. Controleer remvloeistof en remblokken. Stoppen kan noodzakelijk zijn.",
+    "imageUrl": "images/brake-problem-light.png"
+  },
+  {
+    "id": 113,
+    "question": "Hoe controleer je de wielophanging?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door speling te meten",
+      "Door rijden"
+    ],
+    "correctAnswer": 2,
+    "category": "SUSPENSION_MAINTENANCE",
+    "explanation": "Wielophanging moet gecontroleerd worden door speling te meten. Te veel speling kan wijzen op slijtage.",
+    "imageUrl": "images/suspension-measurement.png"
+  },
+  {
+    "id": 114,
+    "question": "Wanneer moet je de remblokken controleren?",
+    "options": [
+      "Elke 5.000 km",
+      "Elke 10.000 km",
+      "Elke 15.000 km",
+      "Elke 20.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Remblokken moeten elke 15.000 km gecontroleerd worden. Controleer de dikte en slijtage. Piepende geluiden kunnen wijzen op slijtage.",
+    "imageUrl": "images/brake-pad-inspection.png"
+  },
+  {
+    "id": 115,
+    "question": "Wat betekent een rood lampje met koeling symbool?",
+    "options": [
+      "Koeling vol",
+      "Koeling probleem",
+      "Systeem actief",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "COOLING_SYSTEM",
+    "explanation": "Een rood lampje met koeling symbool geeft een koeling probleem aan. Controleer koelvloeistof en koeling. Stoppen kan noodzakelijk zijn.",
+    "imageUrl": "images/cooling-warning-light.png"
+  },
+  {
+    "id": 116,
+    "question": "Hoe controleer je de wielophanging?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door visuele inspectie",
+      "Door rijden"
+    ],
+    "correctAnswer": 2,
+    "category": "SUSPENSION_MAINTENANCE",
+    "explanation": "Wielophanging moet gecontroleerd worden door visuele inspectie. Controleer op slijtage en defecten. Dit beïnvloedt de wegligging.",
+    "imageUrl": "images/suspension-visual-inspection.png"
+  },
+  {
+    "id": 117,
+    "question": "Wanneer moet je de remmen vervangen?",
+    "options": [
+      "Elke 50.000 km",
+      "Elke 100.000 km",
+      "Bij slijtage",
+      "Elke 150.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "BRAKE_MAINTENANCE",
+    "explanation": "Remmen moeten vervangen worden bij slijtage. Controleer regelmatig de dikte van remblokken en remscheiben.",
+    "imageUrl": "images/brake-replacement.png"
+  },
+  {
+    "id": 118,
+    "question": "Wat betekent een rood lampje met ABS symbool?",
+    "options": [
+      "ABS vol",
+      "ABS probleem",
+      "Systeem actief",
+      "Alles in orde"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKE_SYSTEM",
+    "explanation": "Een rood lampje met ABS symbool geeft een ABS probleem aan. Controleer het systeem. De remwerking blijft maar zonder ABS.",
+    "imageUrl": "images/abs-warning-light.png"
+  },
+  {
+    "id": 119,
+    "question": "Hoe controleer je de wielophanging?",
+    "options": [
+      "Door geluid",
+      "Door dashboard lampjes",
+      "Door speling te meten",
+      "Door rijden"
+    ],
+    "correctAnswer": 2,
+    "category": "SUSPENSION_MAINTENANCE",
+    "explanation": "Wielophanging moet gecontroleerd worden door speling te meten. Te veel speling kan wijzen op slijtage.",
+    "imageUrl": "images/suspension-measurement-tool.png"
+  },
+  {
+    "id": 120,
+    "question": "Wanneer moet je de wielophanging vervangen?",
+    "options": [
+      "Elke 50.000 km",
+      "Elke 100.000 km",
+      "Bij slijtage",
+      "Elke 150.000 km"
+    ],
+    "correctAnswer": 2,
+    "category": "SUSPENSION_MAINTENANCE",
+    "explanation": "Wielophanging moet vervangen worden bij slijtage symptomen zoals speling of geluid. Controleer regelmatig.",
+    "imageUrl": "images/suspension-replacement-guide.png"
+  }
+]

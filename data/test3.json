@@ -1,0 +1,842 @@
+[
+  {
+    "id": 121,
+    "question": "Wat is de juiste handpositie op het stuur?",
+    "options": [
+      "Één hand op 12 uur",
+      "Tien-voor-twee positie",
+      "Willekeurige positie",
+      "Één hand op het versnellingspook"
+    ],
+    "correctAnswer": 1,
+    "category": "DRIVING_TECHNIQUE",
+    "explanation": "De tien-voor-twee positie (handen op 10 en 2 uur) geeft de beste controle over het stuur. Dit is de veilige standaardpositie.",
+    "imageUrl": "images/steering-position.png"
+  },
+  {
+    "id": 122,
+    "question": "Hoe rem je het beste bij noodstop op droog wegdek?",
+    "options": [
+      "Trapper vol intrappen",
+      "Gestage druk op rempedaal",
+      "Remmen en sturen tegelijk",
+      "ABS gebruiken en vol doorremmen"
+    ],
+    "correctAnswer": 3,
+    "category": "EMERGENCY_BRAKING",
+    "explanation": "Bij moderne auto's met ABS: vol doorremmen en sturen waar je heen wilt. Het ABS-systeem zorgt voor optimale remkracht en stuurbaarheid.",
+    "videoUrl": "videos/abs-braking.mp4"
+  },
+  {
+    "id": 123,
+    "question": "Wat is de juiste afstand tot de voorligger bij 100 km/u?",
+    "options": [
+      "50 meter",
+      "70 meter",
+      "90 meter",
+      "110 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 100 km/u moet je minstens 70 meter afstand houden. Dit komt overeen met 2 seconden volgtijd. De afstand moet toenemen bij hogere snelheden.",
+    "imageUrl": "images/following-distance-100.png"
+  },
+  {
+    "id": 124,
+    "question": "Hoe verlaat je een rotonde correct?",
+    "options": [
+      "Snel afslaan",
+      "Richtingaanwijzer gebruiken",
+      "Zonder signaleren",
+      "Doorsnijden"
+    ],
+    "correctAnswer": 1,
+    "category": "ROTOND_TECHNIQUE",
+    "explanation": "Bij het verlaten van een rotonde moet je de richtingaanwijzer gebruiken. Dit geeft andere weggebruikers duidelijkheid over je intenties.",
+    "imageUrl": "images/roundabout-exit.png"
+  },
+  {
+    "id": 125,
+    "question": "Wat is de juiste snelheid bij het naderen van een bocht?",
+    "options": [
+      "Snelheid verhogen",
+      "Snelheid aanpassen voor de bocht",
+      "Constante snelheid",
+      "Snelheid verlagen na de bocht"
+    ],
+    "correctAnswer": 1,
+    "category": "CORNERING_TECHNIQUE",
+    "explanation": "Bij het naderen van een bocht moet je de snelheid aanpassen voordat je de bocht ingaat. Remmen in de bocht kan leiden tot onderstuur.",
+    "imageUrl": "images/cornering-speed.png"
+  },
+  {
+    "id": 126,
+    "question": "Hoe gebruik je de spiegels correct?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Regelmatig alle spiegels checken",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "MIRROR_USAGE",
+    "explanation": "Gebruik alle spiegels regelmatig om het verkeer achter en naast je te controleren. Dit geeft een volledig beeld van de verkeerssituatie.",
+    "imageUrl": "images/mirror-checking.png"
+  },
+  {
+    "id": 127,
+    "question": "Wat is de juiste afstand tot de fiets voor je?",
+    "options": [
+      "0.5 meter",
+      "1 meter",
+      "1.5 meter",
+      "2 meter"
+    ],
+    "correctAnswer": 2,
+    "category": "CYCLIST_SAFETY",
+    "explanation": "Bij het inhalen van fietsers moet je minstens 1.5 meter afstand houden. Dit is wettelijk verplicht en garandeert de veiligheid van fietsers.",
+    "imageUrl": "images/cyclist-passing-distance.png"
+  },
+  {
+    "id": 128,
+    "question": "Hoe positioneer je je voeten correct?",
+    "options": [
+      "Beide voeten op het gaspedaal",
+      "Rechtervoet voor gas en rem",
+      "Linkervoet voor rem",
+      "Beide voeten op het rempedaal"
+    ],
+    "correctAnswer": 1,
+    "category": "FOOT_POSITIONING",
+    "explanation": "Rechtervoet bedient gas en rem, linkervoet bedient koppeling (bij handgeschakelde auto's). Dit is de veilige standaardpositie.",
+    "imageUrl": "images/foot-position.png"
+  },
+  {
+    "id": 129,
+    "question": "Wat is de juiste techniek voor het parkeren?",
+    "options": [
+      "Snel parkeren",
+      "Langzaam en gecontroleerd",
+      "Zonder signaleren",
+      "Doorsnijden"
+    ],
+    "correctAnswer": 1,
+    "category": "PARKING_TECHNIQUE",
+    "explanation": "Parkeren moet langzaam en gecontroleerd gebeuren. Gebruik de spiegels en check de afstanden. Dit voorkomt schade.",
+    "imageUrl": "images/parking-technique.png"
+  },
+  {
+    "id": 130,
+    "question": "Hoe gebruik je de koppeling correct?",
+    "options": [
+      "Snel loslaten",
+      "Gecontroleerd loslaten",
+      "Half ingedrukt houden",
+      "Niet gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "CLUTCH_USAGE",
+    "explanation": "De koppeling moet gecontroleerd losgelaten worden. Dit voorkomt slijtage en zorgt voor een soepel wegrijden.",
+    "imageUrl": "images/clutch-control.png"
+  },
+  {
+    "id": 131,
+    "question": "Wat is de juiste techniek voor het inhalen?",
+    "options": [
+      "Snel inhalen",
+      "Gecontroleerd inhalen met signaleren",
+      "Zonder signaleren",
+      "Doorsnijden"
+    ],
+    "correctAnswer": 1,
+    "category": "OVERTAKING_TECHNIQUE",
+    "explanation": "Inhalen moet gecontroleerd gebeuren met gebruik van richtingaanwijzer. Controleer de spiegels en dode hoek. Dit verhoogt de veiligheid.",
+    "imageUrl": "images/overtaking-technique.png"
+  },
+  {
+    "id": 132,
+    "question": "Hoe positioneer je je handen bij het sturen?",
+    "options": [
+      "Één hand op 12 uur",
+      "Beide handen op het stuur",
+      "Één hand op het versnellingspook",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "STEERING_TECHNIQUE",
+    "explanation": "Beide handen moeten op het stuur zijn voor optimale controle. Dit geeft de beste stuurrespons en veiligheid.",
+    "imageUrl": "images/hands-on-wheel.png"
+  },
+  {
+    "id": 133,
+    "question": "Wat is de juiste techniek voor het afslaan?",
+    "options": [
+      "Snel afslaan",
+      "Gecontroleerd afslaan met signaleren",
+      "Zonder signaleren",
+      "Doorsnijden"
+    ],
+    "correctAnswer": 1,
+    "category": "TURNING_TECHNIQUE",
+    "explanation": "Afslaan moet gecontroleerd gebeuren met gebruik van richtingaanwijzer. Controleer de spiegels en dode hoek. Dit verhoogt de veiligheid.",
+    "imageUrl": "images/turning-technique.png"
+  },
+  {
+    "id": 134,
+    "question": "Hoe gebruik je de versnellingsbak correct?",
+    "options": [
+      "Snel schakelen",
+      "Gecontroleerd schakelen",
+      "Zonder koppeling",
+      "Alleen hoge versnellingen"
+    ],
+    "correctAnswer": 1,
+    "category": "GEAR_USAGE",
+    "explanation": "De versnellingsbak moet gecontroleerd geschakeld worden. Gebruik de juiste versnelling voor de snelheid en situatie.",
+    "imageUrl": "images/gear-shifting.png"
+  },
+  {
+    "id": 135,
+    "question": "Wat is de juiste techniek voor het remmen?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Remmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/braking-technique.png"
+  },
+  {
+    "id": 136,
+    "question": "Hoe positioneer je je lichaam correct?",
+    "options": [
+      "Gebogen zitten",
+      "Rechte rug en schouders",
+      "Eén hand op het stuur",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "POSTURE",
+    "explanation": "Een rechte rug en schouders geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/driving-posture.png"
+  },
+  {
+    "id": 137,
+    "question": "Wat is de juiste techniek voor het wegrijden?",
+    "options": [
+      "Snel wegrijden",
+      "Gecontroleerd wegrijden",
+      "Zonder koppeling",
+      "Met handrem"
+    ],
+    "correctAnswer": 1,
+    "category": "STARTING_TECHNIQUE",
+    "explanation": "Wegrijden moet gecontroleerd gebeuren. Gebruik de koppeling en gaspedaal correct. Dit voorkomt slijtage.",
+    "imageUrl": "images/starting-technique.png"
+  },
+  {
+    "id": 138,
+    "question": "Hoe gebruik je de handrem correct?",
+    "options": [
+      "Alleen bij parkeren",
+      "Bij alle stops",
+      "Bij noodstop",
+      "Nooit gebruiken"
+    ],
+    "correctAnswer": 0,
+    "category": "HANDBRAKE_USAGE",
+    "explanation": "De handrem moet gebruikt worden bij parkeren. Dit voorkomt wegrollen. Gebruik nooit de handrem bij rijden.",
+    "imageUrl": "images/handbrake-usage.png"
+  },
+  {
+    "id": 139,
+    "question": "Wat is de juiste techniek voor het stoppen?",
+    "options": [
+      "Snel stoppen",
+      "Gecontroleerd stoppen",
+      "Alleen handrem gebruiken",
+      "Niet stoppen"
+    ],
+    "correctAnswer": 1,
+    "category": "STOPPING_TECHNIQUE",
+    "explanation": "Stoppen moet gecontroleerd gebeuren. Gebruik de remmen correct en kom tot stilstand. Dit voorkomt slippen.",
+    "imageUrl": "images/stopping-technique.png"
+  },
+  {
+    "id": 140,
+    "question": "Hoe positioneer je je voeten bij het rijden?",
+    "options": [
+      "Beide voeten op het gaspedaal",
+      "Rechtervoet voor gas en rem",
+      "Linkervoet voor rem",
+      "Beide voeten op het rempedaal"
+    ],
+    "correctAnswer": 1,
+    "category": "FOOT_POSITIONING",
+    "explanation": "Rechtervoet bedient gas en rem, linkervoet bedient koppeling (bij handgeschakelde auto's). Dit is de veilige standaardpositie.",
+    "imageUrl": "images/foot-position-driving.png"
+  },
+  {
+    "id": 141,
+    "question": "Wat is de juiste techniek voor het sturen?",
+    "options": [
+      "Snel sturen",
+      "Gecontroleerd sturen",
+      "Eén hand sturen",
+      "Niet sturen"
+    ],
+    "correctAnswer": 1,
+    "category": "STEERING_TECHNIQUE",
+    "explanation": "Sturen moet gecontroleerd gebeuren. Gebruik de juiste stuurtechniek voor de situatie. Dit houdt controle en veiligheid.",
+    "imageUrl": "images/steering-control.png"
+  },
+  {
+    "id": 142,
+    "question": "Hoe gebruik je de spiegels bij het rijden?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Regelmatig alle spiegels checken",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "MIRROR_USAGE",
+    "explanation": "Gebruik alle spiegels regelmatig om het verkeer achter en naast je te controleren. Dit geeft een volledig beeld van de verkeerssituatie.",
+    "imageUrl": "images/mirror-usage-driving.png"
+  },
+  {
+    "id": 143,
+    "question": "Wat is de juiste techniek voor het veranderen van rijstrook?",
+    "options": [
+      "Snel wisselen",
+      "Gecontroleerd wisselen met signaleren",
+      "Zonder signaleren",
+      "Doorsnijden"
+    ],
+    "correctAnswer": 1,
+    "category": "LANE_CHANGING",
+    "explanation": "Rijstrook wisselen moet gecontroleerd gebeuren met gebruik van richtingaanwijzer. Controleer de spiegels en dode hoek.",
+    "imageUrl": "images/lane-changing-technique.png"
+  },
+  {
+    "id": 144,
+    "question": "Hoe positioneer je je hoofd correct?",
+    "options": [
+      "Gebogen hoofd",
+      "Rechte nek en hoofd",
+      "Eén hand op hoofd",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "HEAD_POSITIONING",
+    "explanation": "Een rechte nek en hoofd geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/head-position.png"
+  },
+  {
+    "id": 145,
+    "question": "Wat is de juiste techniek voor het gebruik van de koppeling?",
+    "options": [
+      "Snel loslaten",
+      "Gecontroleerd loslaten",
+      "Half ingedrukt houden",
+      "Niet gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "CLUTCH_USAGE",
+    "explanation": "De koppeling moet gecontroleerd losgelaten worden. Dit voorkomt slijtage en zorgt voor een soepel wegrijden.",
+    "imageUrl": "images/clutch-technique.png"
+  },
+  {
+    "id": 146,
+    "question": "Hoe gebruik je de versnellingsbak bij het rijden?",
+    "options": [
+      "Snel schakelen",
+      "Gecontroleerd schakelen",
+      "Zonder koppeling",
+      "Alleen hoge versnellingen"
+    ],
+    "correctAnswer": 1,
+    "category": "GEAR_USAGE",
+    "explanation": "De versnellingsbak moet gecontroleerd geschakeld worden. Gebruik de juiste versnelling voor de snelheid en situatie.",
+    "imageUrl": "images/gear-usage-driving.png"
+  },
+  {
+    "id": 147,
+    "question": "Wat is de juiste techniek voor het remmen bij nat wegdek?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "WET_CONDITIONS",
+    "explanation": "Remmen bij nat wegdek moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen.",
+    "imageUrl": "images/wet-braking-technique.png"
+  },
+  {
+    "id": 148,
+    "question": "Hoe positioneer je je handen bij het sturen?",
+    "options": [
+      "Één hand op 12 uur",
+      "Beide handen op het stuur",
+      "Één hand op het versnellingspook",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "STEERING_TECHNIQUE",
+    "explanation": "Beide handen moeten op het stuur zijn voor optimale controle. Dit geeft de beste stuurrespons en veiligheid.",
+    "imageUrl": "images/hands-steering-wheel.png"
+  },
+  {
+    "id": 149,
+    "question": "Wat is de juiste techniek voor het afremmen?",
+    "options": [
+      "Snel afremmen",
+      "Gecontroleerd afremmen",
+      "Alleen handrem gebruiken",
+      "Niet afremmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Afremmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/braking-control.png"
+  },
+  {
+    "id": 150,
+    "question": "Hoe gebruik je de spiegels bij het parkeren?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Alle spiegels gebruiken",
+      "Alleen bij inhalen",
+      "Niet gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "PARKING_TECHNIQUE",
+    "explanation": "Gebruik alle spiegels bij het parkeren. Dit geeft een volledig beeld van de omgeving en voorkomt schade.",
+    "imageUrl": "images/mirror-parking-technique.png"
+  },
+  {
+    "id": 151,
+    "question": "Wat is de juiste techniek voor het gebruik van de rem?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Remmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/brake-usage.png"
+  },
+  {
+    "id": 152,
+    "question": "Hoe positioneer je je lichaam bij het rijden?",
+    "options": [
+      "Gebogen zitten",
+      "Rechte rug en schouders",
+      "Eén hand op het stuur",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "DRIVING_POSTURE",
+    "explanation": "Een rechte rug en schouders geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/driving-posture-correction.png"
+  },
+  {
+    "id": 153,
+    "question": "Wat is de juiste techniek voor het gebruik van de koppeling?",
+    "options": [
+      "Snel loslaten",
+      "Gecontroleerd loslaten",
+      "Half ingedrukt houden",
+      "Niet gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "CLUTCH_TECHNIQUE",
+    "explanation": "De koppeling moet gecontroleerd losgelaten worden. Dit voorkomt slijtage en zorgt voor een soepel wegrijden.",
+    "imageUrl": "images/clutch-control-technique.png"
+  },
+  {
+    "id": 154,
+    "question": "Hoe gebruik je de spiegels bij het rijden?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Regelmatig alle spiegels checken",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "MIRROR_TECHNIQUE",
+    "explanation": "Gebruik alle spiegels regelmatig om het verkeer achter en naast je te controleren. Dit geeft een volledig beeld van de verkeerssituatie.",
+    "imageUrl": "images/mirror-checking-technique.png"
+  },
+  {
+    "id": 155,
+    "question": "Wat is de juiste techniek voor het gebruik van de rem?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Remmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/braking-technique-guide.png"
+  },
+  {
+    "id": 156,
+    "question": "Hoe positioneer je je hoofd bij het rijden?",
+    "options": [
+      "Gebogen hoofd",
+      "Rechte nek en hoofd",
+      "Eén hand op hoofd",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "HEAD_TECHNIQUE",
+    "explanation": "Een rechte nek en hoofd geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/head-position-driving.png"
+  },
+  {
+    "id": 157,
+    "question": "Wat is de juiste techniek voor het gebruik van de versnellingsbak?",
+    "options": [
+      "Snel schakelen",
+      "Gecontroleerd schakelen",
+      "Zonder koppeling",
+      "Alleen hoge versnellingen"
+    ],
+    "correctAnswer": 1,
+    "category": "GEAR_TECHNIQUE",
+    "explanation": "De versnellingsbak moet gecontroleerd geschakeld worden. Gebruik de juiste versnelling voor de snelheid en situatie.",
+    "imageUrl": "images/gear-shifting-technique.png"
+  },
+  {
+    "id": 158,
+    "question": "Hoe gebruik je de spiegels bij het rijden?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Regelmatig alle spiegels checken",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "MIRROR_USAGE",
+    "explanation": "Gebruik alle spiegels regelmatig om het verkeer achter en naast je te controleren. Dit geeft een volledig beeld van de verkeerssituatie.",
+    "imageUrl": "images/mirror-usage-complete.png"
+  },
+  {
+    "id": 159,
+    "question": "Wat is de juiste techniek voor het gebruik van de rem?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Remmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/braking-technique-complete.png"
+  },
+  {
+    "id": 160,
+    "question": "Hoe positioneer je je lichaam bij het rijden?",
+    "options": [
+      "Gebogen zitten",
+      "Rechte rug en schouders",
+      "Eén hand op het stuur",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "DRIVING_POSTURE",
+    "explanation": "Een rechte rug en schouders geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/driving-posture-final.png"
+  },
+  {
+    "id": 161,
+    "question": "Wat is de juiste techniek voor het gebruik van de koppeling?",
+    "options": [
+      "Snel loslaten",
+      "Gecontroleerd loslaten",
+      "Half ingedrukt houden",
+      "Niet gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "CLUTCH_TECHNIQUE",
+    "explanation": "De koppeling moet gecontroleerd losgelaten worden. Dit voorkomt slijtage en zorgt voor een soepel wegrijden.",
+    "imageUrl": "images/clutch-technique-final.png"
+  },
+  {
+    "id": 162,
+    "question": "Hoe gebruik je de spiegels bij het rijden?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Regelmatig alle spiegels checken",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "MIRROR_USAGE",
+    "explanation": "Gebruik alle spiegels regelmatig om het verkeer achter en naast je te controleren. Dit geeft een volledig beeld van de verkeerssituatie.",
+    "imageUrl": "images/mirror-usage-final.png"
+  },
+  {
+    "id": 163,
+    "question": "Wat is de juiste techniek voor het gebruik van de rem?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Remmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/braking-technique-final.png"
+  },
+  {
+    "id": 164,
+    "question": "Hoe positioneer je je lichaam bij het rijden?",
+    "options": [
+      "Gebogen zitten",
+      "Rechte rug en schouders",
+      "Eén hand op het stuur",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "DRIVING_POSTURE",
+    "explanation": "Een rechte rug en schouders geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/driving-posture-guide.png"
+  },
+  {
+    "id": 165,
+    "question": "Wat is de juiste techniek voor het gebruik van de koppeling?",
+    "options": [
+      "Snel loslaten",
+      "Gecontroleerd loslaten",
+      "Half ingedrukt houden",
+      "Niet gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "CLUTCH_TECHNIQUE",
+    "explanation": "De koppeling moet gecontroleerd losgelaten worden. Dit voorkomt slijtage en zorgt voor een soepel wegrijden.",
+    "imageUrl": "images/clutch-technique-guide.png"
+  },
+  {
+    "id": 166,
+    "question": "Hoe gebruik je de spiegels bij het rijden?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Regelmatig alle spiegels checken",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "MIRROR_USAGE",
+    "explanation": "Gebruik alle spiegels regelmatig om het verkeer achter en naast je te controleren. Dit geeft een volledig beeld van de verkeerssituatie.",
+    "imageUrl": "images/mirror-usage-guide.png"
+  },
+  {
+    "id": 167,
+    "question": "Wat is de juiste techniek voor het gebruik van de rem?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Remmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/braking-technique-guide.png"
+  },
+  {
+    "id": 168,
+    "question": "Hoe positioneer je je lichaam bij het rijden?",
+    "options": [
+      "Gebogen zitten",
+      "Rechte rug en schouders",
+      "Eén hand op het stuur",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "DRIVING_POSTURE",
+    "explanation": "Een rechte rug en schouders geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/driving-posture-guide.png"
+  },
+  {
+    "id": 169,
+    "question": "Wat is de juiste techniek voor het gebruik van de koppeling?",
+    "options": [
+      "Snel loslaten",
+      "Gecontroleerd loslaten",
+      "Half ingedrukt houden",
+      "Niet gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "CLUTCH_TECHNIQUE",
+    "explanation": "De koppeling moet gecontroleerd losgelaten worden. Dit voorkomt slijtage en zorgt voor een soepel wegrijden.",
+    "imageUrl": "images/clutch-technique-guide.png"
+  },
+  {
+    "id": 170,
+    "question": "Hoe gebruik je de spiegels bij het rijden?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Regelmatig alle spiegels checken",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "MIRROR_USAGE",
+    "explanation": "Gebruik alle spiegels regelmatig om het verkeer achter en naast je te controleren. Dit geeft een volledig beeld van de verkeerssituatie.",
+    "imageUrl": "images/mirror-usage-guide.png"
+  },
+  {
+    "id": 171,
+    "question": "Wat is de juiste techniek voor het gebruik van de rem?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Remmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/braking-technique-guide.png"
+  },
+  {
+    "id": 172,
+    "question": "Hoe positioneer je je lichaam bij het rijden?",
+    "options": [
+      "Gebogen zitten",
+      "Rechte rug en schouders",
+      "Eén hand op het stuur",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "DRIVING_POSTURE",
+    "explanation": "Een rechte rug en schouders geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/driving-posture-guide.png"
+  },
+  {
+    "id": 173,
+    "question": "Wat is de juiste techniek voor het gebruik van de koppeling?",
+    "options": [
+      "Snel loslaten",
+      "Gecontroleerd loslaten",
+      "Half ingedrukt houden",
+      "Niet gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "CLUTCH_TECHNIQUE",
+    "explanation": "De koppeling moet gecontroleerd losgelaten worden. Dit voorkomt slijtage en zorgt voor een soepel wegrijden.",
+    "imageUrl": "images/clutch-technique-guide.png"
+  },
+  {
+    "id": 174,
+    "question": "Hoe gebruik je de spiegels bij het rijden?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Regelmatig alle spiegels checken",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "MIRROR_USAGE",
+    "explanation": "Gebruik alle spiegels regelmatig om het verkeer achter en naast je te controleren. Dit geeft een volledig beeld van de verkeerssituatie.",
+    "imageUrl": "images/mirror-usage-guide.png"
+  },
+  {
+    "id": 175,
+    "question": "Wat is de juiste techniek voor het gebruik van de rem?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Remmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/braking-technique-guide.png"
+  },
+  {
+    "id": 176,
+    "question": "Hoe positioneer je je lichaam bij het rijden?",
+    "options": [
+      "Gebogen zitten",
+      "Rechte rug en schouders",
+      "Eén hand op het stuur",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "DRIVING_POSTURE",
+    "explanation": "Een rechte rug en schouders geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/driving-posture-guide.png"
+  },
+  {
+    "id": 177,
+    "question": "Wat is de juiste techniek voor het gebruik van de koppeling?",
+    "options": [
+      "Snel loslaten",
+      "Gecontroleerd loslaten",
+      "Half ingedrukt houden",
+      "Niet gebruiken"
+    ],
+    "correctAnswer": 1,
+    "category": "CLUTCH_TECHNIQUE",
+    "explanation": "De koppeling moet gecontroleerd losgelaten worden. Dit voorkomt slijtage en zorgt voor een soepel wegrijden.",
+    "imageUrl": "images/clutch-technique-guide.png"
+  },
+  {
+    "id": 178,
+    "question": "Hoe gebruik je de spiegels bij het rijden?",
+    "options": [
+      "Alleen achteruitkijkspiegel",
+      "Regelmatig alle spiegels checken",
+      "Alleen bij inhalen",
+      "Alleen bij parkeren"
+    ],
+    "correctAnswer": 1,
+    "category": "MIRROR_USAGE",
+    "explanation": "Gebruik alle spiegels regelmatig om het verkeer achter en naast je te controleren. Dit geeft een volledig beeld van de verkeerssituatie.",
+    "imageUrl": "images/mirror-usage-guide.png"
+  },
+  {
+    "id": 179,
+    "question": "Wat is de juiste techniek voor het gebruik van de rem?",
+    "options": [
+      "Snel remmen",
+      "Gecontroleerd remmen",
+      "Alleen handrem gebruiken",
+      "Niet remmen"
+    ],
+    "correctAnswer": 1,
+    "category": "BRAKING_TECHNIQUE",
+    "explanation": "Remmen moet gecontroleerd gebeuren. Gebruik de juiste remkracht voor de situatie. Dit voorkomt slippen en houdt controle.",
+    "imageUrl": "images/braking-technique-guide.png"
+  },
+  {
+    "id": 180,
+    "question": "Hoe positioneer je je lichaam bij het rijden?",
+    "options": [
+      "Gebogen zitten",
+      "Rechte rug en schouders",
+      "Eén hand op het stuur",
+      "Willekeurige positie"
+    ],
+    "correctAnswer": 1,
+    "category": "DRIVING_POSTURE",
+    "explanation": "Een rechte rug en schouders geven de beste controle en comfort. Dit vermindert vermoeidheid bij langere ritten.",
+    "imageUrl": "images/driving-posture-guide.png"
+  }
+]

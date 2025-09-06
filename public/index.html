@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBR Theorie Examen - 300 Vragen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CBR Theorie Examen</h1>
+            <p>300 vragen verdeeld over 5 testen - Bereid je voor op het echte examen</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro-section">
+            <h2>Welkom bij je theorie examen training</h2>
+            <p>Je hebt 4 dagen om je voor te bereiden op het echte CBR theorie examen. Deze 300 vragen zijn zorgvuldig samengesteld om je optimaal voor te bereiden.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>300</h3>
+                    <p>Totale vragen</p>
+                </div>
+                <div class="stat-card">
+                    <h3>60</h3>
+                    <p>Vragen per test</p>
+                </div>
+                <div class="stat-card">
+                    <h3>5</h3>
+                    <p>Aantal testen</p>
+                </div>
+                <div class="stat-card">
+                    <h3>4 dagen</h3>
+                    <p>Tot examen</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="test-selection">
+            <h2>Kies een test om te starten</h2>
+            <div class="test-grid">
+                <div class="test-card" data-test="1">
+                    <h3>Test 1</h3>
+                    <p>Verkeersregels en wegmarkeringen</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 0%"></div>
+                    </div>
+                    <button class="start-test-btn" onclick="startTest(1)">Start Test 1</button>
+                </div>
+
+                <div class="test-card" data-test="2">
+                    <h3>Test 2</h3>
+                    <p>Voertuigonderhoud en veiligheid</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 0%"></div>
+                    </div>
+                    <button class="start-test-btn" onclick="startTest(2)">Start Test 2</button>
+                </div>
+
+                <div class="test-card" data-test="3">
+                    <h3>Test 3</h3>
+                    <p>Rijtechniek en besturing</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 0%"></div>
+                    </div>
+                    <button class="start-test-btn" onclick="startTest(3)">Start Test 3</button>
+                </div>
+
+                <div class="test-card" data-test="4">
+                    <h3>Test 4</h3>
+                    <p>Verkeerssituaties en voorrang</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 0%"></div>
+                    </div>
+                    <button class="start-test-btn" onclick="startTest(4)">Start Test 4</button>
+                </div>
+
+                <div class="test-card" data-test="5">
+                    <h3>Test 5</h3>
+                    <p>Noodsituaties en weersomstandigheden</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 0%"></div>
+                    </div>
+                    <button class="start-test-btn" onclick="startTest(5)">Start Test 5</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="progress-overview">
+            <h2>Voortgang</h2>
+            <div class="overall-progress">
+                <div class="progress-bar large">
+                    <div class="progress" id="overall-progress" style="width: 0%"></div>
+                </div>
+                <p id="progress-text">0 van de 300 vragen beantwoord</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Test Interface Modal -->
+    <div id="test-modal" class="modal">
+        <div class="modal-content">
+            <div class="test-header">
+                <h2 id="test-title">Test 1 - Verkeersregels</h2>
+                <div class="test-stats">
+                    <span id="question-counter">Vraag 1 van 60</span>
+                    <span id="time-counter">Tijd: 00:00</span>
+                </div>
+                <button class="close-btn" onclick="closeTest()">&times;</button>
+            </div>
+
+            <div class="test-content">
+                <div class="question-section">
+                    <div class="question-image">
+                        <img id="question-image" src="" alt="Vraag illustratie">
+                    </div>
+                    <div class="question-text">
+                        <h3 id="question-title">Vraag titel</h3>
+                        <p id="question-description">Vraag beschrijving</p>
+                    </div>
+                </div>
+
+                <div class="options-section">
+                    <div class="option" data-option="0">
+                        <input type="radio" id="option-0" name="answer" value="0">
+                        <label for="option-0" id="option-0-text">Optie A</label>
+                    </div>
+                    <div class="option" data-option="1">
+                        <input type="radio" id="option-1" name="answer" value="1">
+                        <label for="option-1" id="option-1-text">Optie B</label>
+                    </div>
+                    <div class="option" data-option="2">
+                        <input type="radio" id="option-2" name="answer" value="2">
+                        <label for="option-2" id="option-2-text">Optie C</label>
+                    </div>
+                    <div class="option" data-option="3">
+                        <input type="radio" id="option-3" name="answer" value="3">
+                        <label for="option-3" id="option-3-text">Optie D</label>
+                    </div>
+                </div>
+
+                <div class="test-actions">
+                    <button id="next-btn" onclick="nextQuestion()">Volgende vraag</button>
+                    <button id="finish-btn" onclick="finishTest()" style="display: none">Test afronden</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Modal -->
+    <div id="results-modal" class="modal">
+        <div class="modal-content results">
+            <div class="results-header">
+                <h2>Test Resultaten</h2>
+                <button class="close-btn" onclick="closeResults()">&times;</button>
+            </div>
+
+            <div class="results-summary">
+                <div class="score-circle">
+                    <div class="score-text">
+                        <span id="score-percentage">0%</span>
+                        <small>Behaald</small>
+                    </div>
+                </div>
+                <div class="score-details">
+                    <p id="correct-answers">0/60 correct</p>
+                    <p id="pass-status">Niet geslaagd</p>
+                </div>
+            </div>
+
+            <div class="wrong-answers-section">
+                <h3>Uitleg bij foutieve antwoorden</h3>
+                <div id="wrong-answers-list"></div>
+            </div>
+
+            <div class="results-actions">
+                <button onclick="reviewWrongAnswers()">Fouten herhalen</button>
+                <button onclick="closeResults()">Sluiten</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
