@@ -1,0 +1,186 @@
+[
+  {
+    "id": 301,
+    "question": "Wat betekent een witte doorgetrokken streep in het midden van de rijbaan?",
+    "options": [
+      "Je mag altijd van rijstrook wisselen",
+      "Je mag alleen van rijstrook wisselen als dit zonder gevaar kan",
+      "Je mag nooit van rijstrook wisselen",
+      "Deze streep heeft geen betekenis"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Een doorgetrokken witte streep verbiedt het wisselen van rijstrook, tenzij dit zonder gevaar voor ander verkeer kan. Dit is belangrijk voor de verkeersveiligheid.",
+    "assistedExplanation": "Let op! Een doorgetrokken streep betekent meestal een verbod, maar er kan een uitzondering zijn als het veilig kan. Denk aan: geen naderend verkeer, voldoende ruimte, en duidelijke intentie.",
+    "commonMistakes": [
+      "Veel mensen denken dat een doorgetrokken streep altijd verboden is",
+      "Sommigen denken dat deze streep alleen voor vrachtwagens geldt",
+      "Anderen denken dat je altijd mag wisselen als je knippert"
+    ]
+  },
+  {
+    "id": 302,
+    "question": "Bij welke snelheid moet je minstens 50 meter afstand houden tot de voorligger?",
+    "options": [
+      "60 km/u",
+      "70 km/u",
+      "80 km/u",
+      "90 km/u"
+    ],
+    "correctAnswer": 2,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 80 km/u moet je minstens 50 meter afstand houden, wat overeenkomt met 2 seconden volgtijd.",
+    "assistedExplanation": "Reken dit uit: 80 km/u = 22 m/s. 2 seconden volgtijd = 44 meter, plus 6 meter veiligheidsmarge = 50 meter. Let op: bij hogere snelheid moet je meer afstand houden!",
+    "calculationHelp": "80 km/u ÷ 3.6 = 22.2 m/s × 2.25 sec = 50 meter"
+  },
+  {
+    "id": 303,
+    "question": "Wanneer gebruik je groot licht bij nacht?",
+    "options": [
+      "Altijd bij nacht",
+      "Alleen bij goed zicht en geen tegenliggers",
+      "Alleen bij mist",
+      "Alleen in de stad"
+    ],
+    "correctAnswer": 1,
+    "category": "LIGHTING",
+    "explanation": "Groot licht gebruik je bij goed zicht en geen tegenliggers. Dim licht bij naderende tegenliggers om verblinding te voorkomen.",
+    "assistedExplanation": "Denk aan: groot licht = meer zicht, maar kan verblinden. Gebruik het dus alleen als het veilig kan. Dim bij tegenliggers, in bebouwde kom, of bij naderen van andere voertuigen.",
+    "visualGuide": "Stel je voor: donkere weg, geen andere auto's → groot licht. Auto's in de verte → dim licht."
+  },
+  {
+    "id": 304,
+    "question": "Wat moet je doen bij een gele verkeerslicht?",
+    "options": [
+      "Altijd stoppen",
+      "Doorrijden als je al te dicht bij het kruispunt bent",
+      "Snel doorrijden",
+      "Remmen en stoppen"
+    ],
+    "correctAnswer": 1,
+    "category": "TRAFFIC_LIGHTS",
+    "explanation": "Bij geel licht moet je stoppen als dit veilig kan. Ben je al te dicht bij het kruispunt, dan mag je doorrijden.",
+    "assistedExplanation": "De 'point of no return': als je op 30 km/u niet meer veilig kunt stoppen binnen 5 meter van het kruispunt, mag je doorrijden. Let op: dit verschilt per snelheid en weersomstandigheden!",
+    "decisionTree": "Geel licht? → Kan ik veilig stoppen? → Ja: stoppen → Nee: doorrijden"
+  },
+  {
+    "id": 305,
+    "question": "Hoeveel meter moet je minstens van een kruispunt parkeren?",
+    "options": [
+      "3 meter",
+      "5 meter",
+      "10 meter",
+      "15 meter"
+    ],
+    "correctAnswer": 1,
+    "category": "PARKING_RULES",
+    "explanation": "Je mag niet parkeren binnen 5 meter van een kruispunt. Dit geldt ook voor kruisingen met fietspaden.",
+    "assistedExplanation": "Visualiseer dit: stel je voor dat er een vuistgrote auto uit het kruispunt komt. Die heeft 5 meter nodig om veilig te keren. Parkeren binnen deze zone belemmert het zicht en de manoeuvreerruimte.",
+    "realWorldExample": "Denk aan: een vrachtwagen die het kruispunt uitkomt en moet keren. Hij heeft die 5 meter nodig om veilig te manoeuvreren."
+  },
+  {
+    "id": 306,
+    "question": "Wat betekent een blauw verkeersbord met een witte pijl naar rechts?",
+    "options": [
+      "Je mag rechtsafslaan",
+      "Je moet rechtsafslaan",
+      "Rechtsafslaan is verboden",
+      "Er is een parkeerplaats rechts"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_SIGNS",
+    "explanation": "Een blauw bord met witte pijl geeft een verplichte richting aan. Je moet in deze richting verder rijden.",
+    "assistedExplanation": "Blauw = verplicht, wit = richting. Dus: blauw + witte pijl = verplichte richting. Denk eraan: dit geldt voor alle verkeersdeelnigers, niet alleen auto's!",
+    "signMemory": "Blauw = verplicht (denk aan politieagent), witte pijl = richting (denk aan wegwijzer)"
+  },
+  {
+    "id": 307,
+    "question": "Bij welke snelheid moet je minstens 70 meter afstand houden?",
+    "options": [
+      "90 km/u",
+      "100 km/u",
+      "110 km/u",
+      "120 km/u"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING",
+    "explanation": "Bij 100 km/u moet je minstens 70 meter afstand houden, wat overeenkomt met 2 seconden volgtijd.",
+    "assistedExplanation": "Reken dit uit: 100 km/u = 27.8 m/s. 2.5 seconden volgtijd = 69.5 meter, afgerond naar 70 meter. Let op: bij nat weer moet je de afstand verdubbelen!",
+    "weatherWarning": "Bij regen: 140 meter, bij ijzel: 200+ meter"
+  },
+  {
+    "id": 308,
+    "question": "Wanneer moet je voorrang verlenen aan een tram?",
+    "options": [
+      "Alleen bij tramhalte",
+      "Altijd bij tramrails",
+      "Alleen bij overstekende tram",
+      "Alleen bij tram van rechts"
+    ],
+    "correctAnswer": 2,
+    "category": "RIGHT_OF_WAY",
+    "explanation": "Trams hebben altijd voorrang bij het verlaten van tramhaltes en bij oversteken.",
+    "assistedExplanation": "Denk aan: een tram is als een trein op wielen. Hij heeft enorme massa en kan niet snel stoppen. Geef daarom altijd voorrang, ook al lijkt het alsof hij nog ver weg is!",
+    "priorityRule": "Tram > alles, behalve hulpdiensten met sirene"
+  },
+  {
+    "id": 309,
+    "question": "Wat moet je doen bij een STOP-bord?",
+    "options": [
+      "Langzaam rollen en verder rijden",
+      "Volledig stoppen en voorrang verlenen",
+      "Remmen maar niet stoppen",
+      "Doorkruisen bij geen verkeer"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_SIGNS",
+    "explanation": "Bij een STOP-bord moet je volledig stoppen (wielstilstand) en voorrang verlenen aan verkeer op de kruisende weg.",
+    "assistedExplanation": "STOP = volledig stoppen. Denk aan: S = Stop, T = Tot stilstand komen, O = Observeren, P = Passeren. Een korte stop is niet genoeg - wielstilstand is vereist!",
+    "memoryTechnique": "STOP = Stop, Tot stilstand, Observeren, Passeren"
+  },
+  {
+    "id": 310,
+    "question": "Hoe herken je een schoolomgeving?",
+    "options": [
+      "Alleen door het bord met kinderen",
+      "Door de 30 km/u zone en speciale markeringen",
+      "Door de aanwezigheid van schoolgebouwen",
+      "Door extra verkeerslichten"
+    ],
+    "correctAnswer": 1,
+    "category": "SCHOOL_ZONES",
+    "explanation": "Een schoolomgeving herken je aan de 30 km/u zone en speciale markeringen. Dit geldt altijd, ongeacht het tijdstip.",
+    "assistedExplanation": "Visualiseer dit: denk aan felgele markeringen op de weg, 30 km/u borden, en soms knipperende lichten. Deze zone is ingesteld voor kinderveiligheid - kinderen zijn onvoorspelbaar!",
+    "childSafety": "Kinderen kunnen plotseling de weg op rennen. De 30 km/u zone geeft je extra tijd om te reageren"
+  },
+  {
+    "id": 311,
+    "question": "Wat betekent een oranje driehoek op de weg?",
+    "options": [
+      "Parkeerplaats",
+      "Waarschuwing voor gevaren",
+      "Snelheidslimiet",
+      "Verplichte stopplaats"
+    ],
+    "correctAnswer": 1,
+    "category": "ROAD_MARKINGS",
+    "explanation": "Een oranje driehoek is een waarschuwingsteken. Dit kan duiden op werkzaamheden, ongevallen of andere gevaren.",
+    "assistedExplanation": "Oranje = waarschuwing, driehoek = gevaren. Denk aan: werkzaamheden, ongevallen, gladheid, overstekende dieren. Altijd verminderen van snelheid en extra alert zijn!",
+    "hazardTypes": "Werkzaamheden, ongevallen, gladheid, overstekende dieren, obstakels"
+  },
+  {
+    "id": 312,
+    "question": "Wanneer gebruik je groot licht bij nacht?",
+    "options": [
+      "Altijd bij nacht",
+      "Bij goed zicht en geen tegenliggers",
+      "Alleen bij mist",
+      "Alleen in de stad"
+    ],
+    "correctAnswer": 1,
+    "category": "LIGHTING",
+    "explanation": "Groot licht gebruik je bij goed zicht en geen tegenliggers. Dim licht bij naderende tegenliggers om verblinding te voorkomen.",
+    "assistedExplanation": "Denk aan: groot licht = beter zicht, maar kan verblinden. Gebruik het dus alleen als het veilig kan. Dim bij tegenliggers, in bebouwde kom, of bij naderen van andere voertuigen. In de stad vaak niet nodig vanwege straatverlichting.",
+    "lightingStrategy": "Donkere weg + geen verkeer = groot licht. Auto's in de verte = dim licht. Stad = dim licht vanwege straatverlichting"
+  }
+]

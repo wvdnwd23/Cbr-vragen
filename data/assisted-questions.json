@@ -1,0 +1,194 @@
+[
+  {
+    "id": 601,
+    "question": "Waarom moet je bij een gele verkeerslicht stoppen als het veilig kan?",
+    "options": [
+      "Omdat geel altijd betekent stoppen",
+      "Omdat rood eraan komt en je tijd hebt om te stoppen",
+      "Omdat je boete krijgt als je doorrijdt",
+      "Omdat andere auto's verwachten dat je stopt"
+    ],
+    "correctAnswer": 1,
+    "category": "TRAFFIC_LIGHTS_EXPLAINED",
+    "explanation": "Geel licht is een waarschuwing dat rood komt. Als je veilig kunt stoppen, moet je dat doen. Dit voorkomt gevaarlijke situaties.",
+    "assistedLearning": "Stel je voor: je rijdt 50 km/u en ziet geel op 30 meter. Kan je binnen 5 meter stoppen? Als ja: stop. Als nee: doorrijden. Dit is de 'point of no return' berekening.",
+    "visualAid": "Denk aan een afstandsberekening: snelheid × reactietijd + remweg = stopafstand",
+    "commonMisconception": "Veel mensen denken dat geel betekent 'snel doorrijden', maar dat is gevaarlijk!"
+  },
+  {
+    "id": 602,
+    "question": "Waarom is 2 seconden volgtijd belangrijk bij het bepalen van veilige afstand?",
+    "options": [
+      "Omdat het wettelijk verplicht is",
+      "Omdat dit je reactietijd en remweg dekt",
+      "Omdat politie dit controleert",
+      "Omdat het makkelijk te onthouden is"
+    ],
+    "correctAnswer": 1,
+    "category": "SAFE_FOLLOWING_EXPLAINED",
+    "explanation": "2 seconden volgtijd dekt je reactietijd (1 seconde) plus remweg (1 seconde). Dit geeft voldoende tijd om te reageren bij plotselinge remacties.",
+    "assistedLearning": "Rekenvoorbeeld: bij 100 km/u = 27.8 m/s × 2 sec = 55.6 meter. Dit is precies genoeg om te reageren en te remmen. Bij nat weer verdubbel je deze afstand!",
+    "practicalTip": "Tel 'één-en-twintig, twee-en-twintig' als de auto voor je een punt passeert. Dit geeft exact 2 seconden.",
+    "speedCalculation": "100 km/u = 27.8 m/s → 2 sec = 55.6 m → afgerond 60-70 m afhankelijk van weersomstandigheden"
+  },
+  {
+    "id": 603,
+    "question": "Waarom heeft een tram voorrang bij tramhaltes?",
+    "options": [
+      "Omdat trams groter zijn",
+      "Omdat trams niet snel kunnen stoppen",
+      "Omdat het wettelijk verplicht is",
+      "Omdat trams prioriteit hebben"
+    ],
+    "correctAnswer": 1,
+    "category": "TRAM_PRIORITY_EXPLAINED",
+    "explanation": "Trams hebben enorme massa en kunnen niet snel stoppen. Ze hebben daarom altijd voorrang bij tramhaltes en oversteken.",
+    "assistedLearning": "Stel je voor: een tram van 40 ton die 50 km/u rijdt. Deze heeft honderden meters nodig om te stoppen. Jij kunt veel sneller stoppen, dus geef voorrang!",
+    "realWorldScenario": "Een tram die 50 km/u rijdt heeft ongeveer 150 meter nodig om te stoppen. Een auto heeft maar 30-50 meter nodig. Wie heeft dus voorrang?",
+    "physicsExplanation": "Massa × snelheid = momentum. Trams hebben zoveel momentum dat stoppen onmogelijk is op korte afstand"
+  },
+  {
+    "id": 604,
+    "question": "Waarom moet je bij een STOP-bord volledig stoppen?",
+    "options": [
+      "Omdat het wettelijk verplicht is",
+      "Omdat je goed zicht moet hebben",
+      "Omdat je voorrang moet verlenen",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "category": "STOP_SIGN_EXPLAINED",
+    "explanation": "Bij een STOP-bord moet je volledig stoppen om goed zicht te hebben, voorrang te verlenen, en omdat het wettelijk verplicht is.",
+    "assistedLearning": "STOP = Stop, Tot stilstand komen, Observeren, Passeren. De 'O' is cruciaal: je moet goed kunnen observeren voordat je verder gaat!",
+    "observationTechnique": "Stop → kijk links → kijk rechts → kijk nogmaals links → ga pas als het veilig is",
+    "memoryAid": "STOP = Stop, Tot stilstand, Observeren, Passeren"
+  },
+  {
+    "id": 605,
+    "question": "Waarom is 30 km/u de maximumsnelheid in schoolzones?",
+    "options": [
+      "Omdat kinderen onvoorspelbaar zijn",
+      "Omdat je meer reactietijd hebt",
+      "Omdat kinderen klein zijn en moeilijk te zien",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "category": "SCHOOL_ZONE_EXPLAINED",
+    "explanation": "30 km/u in schoolzones geeft extra reactietijd voor onvoorspelbare kinderen die klein zijn en moeilijk te zien kunnen zijn.",
+    "assistedLearning": "Rekenvoorbeeld: bij 30 km/u heb je 3.6 seconden om te reageren op een kind dat plotseling de weg op rent. Bij 50 km/u heb je maar 2.2 seconden. Dat verschil kan levens redden!",
+    "childBehavior": "Kinderen kunnen plotseling achter geparkeerde auto's vandaan komen, speelgoed achterna rennen, of hun aandacht verliezen. De 30 km/u zone geeft je tijd om te reageren",
+    "stoppingDistance": "30 km/u = 13 meter remweg. 50 km/u = 25 meter remweg. Bij 30 km/u heb je dus 12 meter extra om te stoppen!"
+  },
+  {
+    "id": 606,
+    "question": "Waarom moet je 1.5 meter afstand houden bij het inhalen van fietsers?",
+    "options": [
+      "Omdat fietsers kunnen wankelen",
+      "Omdat fietsers plotseling kunnen uitwijken",
+      "Omdat fietsers geen bescherming hebben",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "category": "CYCLIST_SAFETY_EXPLAINED",
+    "explanation": "Fietsers kunnen wankelen, plotseling uitwijken, en hebben geen bescherming. 1.5 meter geeft voldoende veiligheidsmarge.",
+    "assistedLearning": "Visualiseer dit: een fietser heeft geen airbag, gordel, of metalen kooi om hem te beschermen. De enige bescherming is afstand. 1.5 meter = armlengte + veiligheidszone",
+    "cyclistBehavior": "Fietsers kunnen plotseling uitwijken voor kuilen, open deuren, of obstakels. Ze kunnen ook wankelen door wind of oneffenheden",
+    "safetyCalculation": "1.5 meter = ruimte voor uitwijken + ruimte voor fouten + ruimte voor onvoorspelbaar gedrag"
+  },
+  {
+    "id": 607,
+    "question": "Waarom moet je bij mist dimlicht gebruiken?",
+    "options": [
+      "Omdat groot licht verblindt",
+      "Omdat dimlicht beter zichtbaar is",
+      "Omdat groot licht terugkaatst",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "category": "FOG_LIGHTING_EXPLAINED",
+    "explanation": "Groot licht verblindt door terugkaatsing in mist, terwijl dimlicht beter zichtbaar is zonder te verblinden.",
+    "assistedLearning": "Stel je voor: groot licht is als een zoeklicht in mist - het licht kaatst terug en verblindt jezelf. Dimlicht is als een zaklamp - het licht gaat voorwaarts zonder terugkaatsing",
+    "lightPhysics": "Groot licht = parallelle lichtbundels die terugkaatsen in mist. Dimlicht = diffuus licht dat voorwaarts schijnt zonder terugkaatsing",
+    "visibilityTip": "In mist: dimlicht + mistlampen = optimale zichtbaarheid. Groot licht = verblinding door terugkaatsing"
+  },
+  {
+    "id": 608,
+    "question": "Waarom moet je bij aquaplaning gas loslaten?",
+    "options": [
+      "Omdat remmen verergert",
+      "Omdat sturen onmogelijk wordt",
+      "Omdat je grip moet herstellen",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "category": "AQUAPLANING_EXPLAINED",
+    "explanation": "Bij aquaplaning verlies je grip, wordt sturen moeilijk, en verergert remmen de situatie. Gas loslaten herstelt geleidelijk grip.",
+    "assistedLearning": "Stel je voor: je rijdt op een glijbaan. Gas geven = sneller glijden, remmen = nog sneller glijden. Gas loslaten = geleidelijk weer grip krijgen",
+    "physicsExplanation": "Aquaplaning = waterlaag tussen band en weg. Gas loslaten = minder kracht op waterlaag = geleidelijk wegcontact herstellen",
+    "recoveryTechnique": "Gas loslaten → stuur recht houden → wacht tot grip terugkomt → geleidelijk sturen"
+  },
+  {
+    "id": 609,
+    "question": "Waarom heeft een vrachtwagen voorrang op smalle wegen?",
+    "options": [
+      "Omdat hij moeilijker kan keren",
+      "Omdat hij minder manoeuvreerruimte heeft",
+      "Omdat hij langzamer is",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "category": "TRUCK_PRIORITY_EXPLAINED",
+    "explanation": "Vrachtwagens hebben voorrang omdat ze moeilijker kunnen keren, minder manoeuvreerruimte hebben, en langzamer zijn.",
+    "assistedLearning": "Visualiseer dit: een vrachtwagen heeft een draaicirkel van 15+ meter, terwijl een auto maar 5-7 meter nodig heeft. De vrachtwagen heeft dus veel meer ruimte nodig om te keren",
+    "manoeuvringDifficulty": "Vrachtwagen: 15+ meter draaicirkel, 40+ ton gewicht, beperkt zicht. Auto: 5-7 meter draaicirkel, 1-2 ton gewicht, goed zicht",
+    "priorityReasoning": "De vrachtwagen heeft meer moeite met keren, dus jij kunt makkelijker wachten. Dit is efficiënt voor alle verkeersdeelnemers"
+  },
+  {
+    "id": 610,
+    "question": "Waarom moet je bij een klapband gas loslaten?",
+    "options": [
+      "Omdat remmen gevaarlijk is",
+      "Omdat je stuurbaarheid moet behouden",
+      "Omdat je snelheid moet verminderen",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "category": "TIRE_BLOWOUT_EXPLAINED",
+    "explanation": "Bij een klapband moet je gas loslaten om stuurbaarheid te behouden, snelheid te verminderen, en remmen te vermijden.",
+    "assistedLearning": "Stel je voor: een klapband is als een platgelopen fietsband. Remmen = nog meer instabiliteit. Gas loslaten = geleidelijk vertragen terwijl je stuurbaarheid behoudt",
+    "steeringTechnique": "Gas loslaten → stuur recht houden → geleidelijk naar rechts uitwijken → veilig stoppen",
+    "dangerAvoidance": "Remmen bij klapband = nog meer instabiliteit + mogelijkheid op slippen. Gas loslaten = gecontroleerde vertraging"
+  },
+  {
+    "id": 611,
+    "question": "Waarom moet je bij een geel kruis boven de rijbaan de rijstrook verlaten?",
+    "options": [
+      "Omdat de rijstrook gesloten is",
+      "Omdat er werkzaamheden zijn",
+      "Omdat er een ongeval is",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "category": "LANE_CLOSURE_EXPLAINED",
+    "explanation": "Een geel kruis betekent dat de rijstrook gesloten is, wat kan komen door werkzaamheden, ongevallen, of andere gevaren.",
+    "assistedLearning": "Visualiseer dit: geel kruis = stoplicht op rood voor die rijstrook. Je moet net als bij een rood licht wachten of omleiden. Dit geldt voor alle redenen van sluiting",
+    "laneChangeStrategy": "Geel kruis zien → signaleren → veilig van rijstrook wisselen → aanpassen aan nieuwe situatie",
+    "safetyPriority": "Altijd veilig van rijstrook wisselen, ongeacht de reden van sluiting. De prioriteit is je eigen veiligheid en die van anderen"
+  },
+  {
+    "id": 612,
+    "question": "Waarom moet je bij een spoorwegovergang stoppen?",
+    "options": [
+      "Omdat treinen altijd voorrang hebben",
+      "Omdat treinen niet kunnen stoppen",
+      "Omdat slagbomen gesloten kunnen zijn",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "category": "RAILWAY_CROSSING_EXPLAINED",
+    "explanation": "Treinen hebben altijd voorrang, kunnen niet snel stoppen, en slagbomen kunnen gesloten zijn. Stoppen is dus altijd verplicht.",
+    "assistedLearning": "Stel je voor: een trein van 1000+ ton die 100+ km/u rijdt. Deze heeft kilometers nodig om te stoppen. Jij kunt in 5 meter stoppen. Wie heeft dus voorrang?",
+    "trainPhysics": "Trein: 1000+ ton, 100+ km/u = 500+ meter remweg. Auto: 1-2 ton, 50 km/u = 30 meter remweg. De keuze is duidelijk!",
+    "safetyCalculation": "Trein remweg = 500+ meter. Auto remweg = 5 meter. Altijd wachten is de veilige keuze"
+  }
+]

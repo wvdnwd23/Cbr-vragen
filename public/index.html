@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CBR Theorie Examen - 300 Vragen</title>
+    <title>CBR Theorie Examen - 600 Vragen (300+300 extra)</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
@@ -11,28 +11,28 @@
 <body>
     <header>
         <div class="container">
-            <h1>CBR Theorie Examen</h1>
-            <p>300 vragen verdeeld over 5 testen - Bereid je voor op het echte examen</p>
+            <h1>CBR Theorie Examen - 600 Vragen</h1>
+            <p>600 vragen verdeeld over 5 testen + extra modes met tussentijdse uitslag elke 20 vragen</p>
         </div>
     </header>
 
     <main class="container">
         <section class="intro-section">
-            <h2>Welkom bij je theorie examen training</h2>
-            <p>Je hebt 4 dagen om je voor te bereiden op het echte CBR theorie examen. Deze 300 vragen zijn zorgvuldig samengesteld om je optimaal voor te bereiden.</p>
+            <h2>Welkom bij je uitgebreide theorie examen training</h2>
+            <p>Je hebt nu toegang tot 600 vragen met tussentijdse uitslag elke 20 vragen en gedetailleerde uitleg bij fouten.</p>
             
             <div class="stats-grid">
                 <div class="stat-card">
-                    <h3>300</h3>
+                    <h3>600</h3>
                     <p>Totale vragen</p>
                 </div>
                 <div class="stat-card">
-                    <h3>60</h3>
-                    <p>Vragen per test</p>
+                    <h3>20</h3>
+                    <p>Vragen per tussenresultaat</p>
                 </div>
                 <div class="stat-card">
-                    <h3>5</h3>
-                    <p>Aantal testen</p>
+                    <h3>30</h3>
+                    <p>Tussentijdse resultaten</p>
                 </div>
                 <div class="stat-card">
                     <h3>4 dagen</h3>
@@ -42,62 +42,102 @@
         </section>
 
         <section class="test-selection">
-            <h2>Kies een test om te starten</h2>
-            <div class="test-grid">
-                <div class="test-card" data-test="1">
-                    <h3>Test 1</h3>
-                    <p>Verkeersregels en wegmarkeringen</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 0%"></div>
+            <h2>Kies je trainingsmodus</h2>
+            
+            <div class="modes-container">
+                <div class="mode-section">
+                    <h3>Reguliere Testen (300 vragen)</h3>
+                    <div class="test-grid">
+                        <div class="test-card">
+                            <h3>Test 1</h3>
+                            <p>Verkeersregels en wegmarkeringen (60 vragen)</p>
+                            <button onclick="startTest(1)">Start Test 1</button>
+                        </div>
+                        <div class="test-card">
+                            <h3>Test 2</h3>
+                            <p>Voertuigonderhoud en veiligheid (60 vragen)</p>
+                            <button onclick="startTest(2)">Start Test 2</button>
+                        </div>
+                        <div class="test-card">
+                            <h3>Test 3</h3>
+                            <p>Rijtechniek en besturing (60 vragen)</p>
+                            <button onclick="startTest(3)">Start Test 3</button>
+                        </div>
+                        <div class="test-card">
+                            <h3>Test 4</h3>
+                            <p>Verkeerssituaties en voorrang (60 vragen)</p>
+                            <button onclick="startTest(4)">Start Test 4</button>
+                        </div>
+                        <div class="test-card">
+                            <h3>Test 5</h3>
+                            <p>Noodsituaties en weersomstandigheden (60 vragen)</p>
+                            <button onclick="startTest(5)">Start Test 5</button>
+                        </div>
                     </div>
-                    <button class="start-test-btn" onclick="startTest(1)">Start Test 1</button>
                 </div>
 
-                <div class="test-card" data-test="2">
-                    <h3>Test 2</h3>
-                    <p>Voertuigonderhoud en veiligheid</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 0%"></div>
+                <div class="mode-section">
+                    <h3>Extra Training Modes (300 extra vragen)</h3>
+                    <div class="test-grid">
+                        <div class="test-card">
+                            <h3>600 Random Vragen</h3>
+                            <p>Alle 600 vragen in willekeurige volgorde</p>
+                            <button onclick="startRandomTest()">Start Random Test</button>
+                        </div>
+                        <div class="test-card">
+                            <h3>Assisted Learning</h3>
+                            <p>200 vragen met stap-voor-stap uitleg</p>
+                            <button onclick="startAssistedTest()">Start Assisted Test</button>
+                        </div>
+                        <div class="test-card">
+                            <h3>20-Vragen Sessies</h3>
+                            <p>Tussentijdse resultaten na elke 20 vragen</p>
+                            <button onclick="startShortSession()">Start 20-Vragen Sessie</button>
+                        </div>
                     </div>
-                    <button class="start-test-btn" onclick="startTest(2)">Start Test 2</button>
-                </div>
-
-                <div class="test-card" data-test="3">
-                    <h3>Test 3</h3>
-                    <p>Rijtechniek en besturing</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 0%"></div>
-                    </div>
-                    <button class="start-test-btn" onclick="startTest(3)">Start Test 3</button>
-                </div>
-
-                <div class="test-card" data-test="4">
-                    <h3>Test 4</h3>
-                    <p>Verkeerssituaties en voorrang</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 0%"></div>
-                    </div>
-                    <button class="start-test-btn" onclick="startTest(4)">Start Test 4</button>
-                </div>
-
-                <div class="test-card" data-test="5">
-                    <h3>Test 5</h3>
-                    <p>Noodsituaties en weersomstandigheden</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 0%"></div>
-                    </div>
-                    <button class="start-test-btn" onclick="startTest(5)">Start Test 5</button>
                 </div>
             </div>
         </section>
 
-        <section class="progress-overview">
-            <h2>Voortgang</h2>
-            <div class="overall-progress">
-                <div class="progress-bar large">
-                    <div class="progress" id="overall-progress" style="width: 0%"></div>
+        <section class="learning-plan">
+            <h2>Geoptimaliseerd 4-daags leerplan</h2>
+            <div class="plan-steps">
+                <div class="plan-step">
+                    <h3>Dag 1: Fundamenten</h3>
+                    <p>Focus op reguliere testen 1 & 2 + extra vragen</p>
+                    <ul>
+                        <li>Verkeersregels en onderhoud</li>
+                        <li>Tussentijdse resultaten na 20 vragen</li>
+                        <li>Gedetailleerde uitleg bij fouten</li>
+                    </ul>
                 </div>
-                <p id="progress-text">0 van de 300 vragen beantwoord</p>
+                <div class="plan-step">
+                    <h3>Dag 2: Techniek</h3>
+                    <p>Focus op testen 3 & 4 + random training</p>
+                    <ul>
+                        <li>Rijtechniek en verkeerssituaties</li>
+                        <li>Assisted learning voor moeilijke topics</li>
+                        <li>Herhaling van fouten</li>
+                    </ul>
+                </div>
+                <div class="plan-step">
+                    <h3>Dag 3: Situaties</h3>
+                    <p>Focus op test 5 + alle modes</p>
+                    <ul>
+                        <li>Noodsituaties en weersomstandigheden</li>
+                        <li>20-vragen sessies voor focus</li>
+                        <li>Alle fouten herhalen</li>
+                    </ul>
+                </div>
+                <div class="plan-step">
+                    <h3>Dag 4: Examen</h3>
+                    <p>Alles herhalen met focus op 75%+ score</p>
+                    <ul>
+                        <li>Alle testen nogmaals</li>
+                        <li>Focus op zwakke punten</li>
+                        <li>75%+ score op alle testen</li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
@@ -106,10 +146,11 @@
     <div id="test-modal" class="modal">
         <div class="modal-content">
             <div class="test-header">
-                <h2 id="test-title">Test 1 - Verkeersregels</h2>
+                <h2 id="test-title">Test</h2>
                 <div class="test-stats">
-                    <span id="question-counter">Vraag 1 van 60</span>
+                    <span id="question-counter">Vraag 1</span>
                     <span id="time-counter">Tijd: 00:00</span>
+                    <span id="progress-indicator">0/20</span>
                 </div>
                 <button class="close-btn" onclick="closeTest()">&times;</button>
             </div>
@@ -122,6 +163,10 @@
                     <div class="question-text">
                         <h3 id="question-title">Vraag titel</h3>
                         <p id="question-description">Vraag beschrijving</p>
+                        <div id="assisted-help" style="display:none;">
+                            <p id="assisted-explanation"></p>
+                            <ul id="common-mistakes"></ul>
+                        </div>
                     </div>
                 </div>
 
@@ -148,39 +193,6 @@
                     <button id="next-btn" onclick="nextQuestion()">Volgende vraag</button>
                     <button id="finish-btn" onclick="finishTest()" style="display: none">Test afronden</button>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Results Modal -->
-    <div id="results-modal" class="modal">
-        <div class="modal-content results">
-            <div class="results-header">
-                <h2>Test Resultaten</h2>
-                <button class="close-btn" onclick="closeResults()">&times;</button>
-            </div>
-
-            <div class="results-summary">
-                <div class="score-circle">
-                    <div class="score-text">
-                        <span id="score-percentage">0%</span>
-                        <small>Behaald</small>
-                    </div>
-                </div>
-                <div class="score-details">
-                    <p id="correct-answers">0/60 correct</p>
-                    <p id="pass-status">Niet geslaagd</p>
-                </div>
-            </div>
-
-            <div class="wrong-answers-section">
-                <h3>Uitleg bij foutieve antwoorden</h3>
-                <div id="wrong-answers-list"></div>
-            </div>
-
-            <div class="results-actions">
-                <button onclick="reviewWrongAnswers()">Fouten herhalen</button>
-                <button onclick="closeResults()">Sluiten</button>
             </div>
         </div>
     </div>

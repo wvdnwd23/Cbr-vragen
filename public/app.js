@@ -11,6 +11,8 @@ let testScores = {
     4: 0,
     5: 0
 };
+let currentMode = 'regular'; // 'regular', 'random', 'assisted'
+let intermediateResults = [];
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', function() {
@@ -24,6 +26,8 @@ async function startTest(testId) {
     currentQuestionIndex = 0;
     userAnswers = [];
     testStartTime = new Date();
+    currentMode = 'regular';
+    intermediateResults = [];
     
     try {
         const response = await fetch(`/api/questions/${testId}`);
@@ -32,9 +36,56 @@ async function startTest(testId) {
         if (questions.length > 0) {
             showTestModal();
             displayQuestion();
+            showProgressBar();
         }
     } catch (error) {
         console.error('Error loading questions:', error);
+        alert('Er is een fout opgetreden bij het laden van de vragen.');
+    }
+}
+
+// Start random test
+async function startRandomTest() {
+    currentQuestionIndex = 0;
+    userAnswers = [];
+    testStartTime = new Date();
+    currentMode = 'random';
+    intermediateResults = [];
+    
+    try {
+        const response = await fetch('/api/random-questions/300');
+        questions = await response.json();
+        
+        if (questions.length > 0) {
+            showTestModal();
+            displayQuestion();
+            showProgressBar();
+        }
+    } catch (error) {
+        console.error('Error loading random questions:', error);
+        alert('Er is een fout opgetreden bij het laden van de vragen.');
+    }
+}
+
+// Start assisted learning
+async function startAssistedTest() {
+    currentQuestionIndex = 0;
+    userAnswers = [];
+    testStartTime = new Date();
+    currentMode = 'assisted';
+    intermediateResults = [];
+    
+    try {
+        const response = await fetch('/api/assisted-questions');
+        questions = await response.json();
+        
+        if (questions.length > 0) {
+            showTestModal();
+            displayQuestion();
+            showProgressBar();
+        }
+    } catch (error) {
+        console.error('Error loading assisted questions:', error);
         alert('Er is een fout opgetreden bij het laden van de vragen.');
     }
 }
@@ -79,7 +130,7 @@ function displayQuestion() {
 }
 
 // Next question
-function nextQuestion() {
+async function nextQuestion() {
     const selectedOption = document.querySelector('input[name="answer"]:checked');
     
     if (!selectedOption) {
@@ -90,9 +141,85 @@ function nextQuestion() {
     userAnswers.push(parseInt(selectedOption.value));
     currentQuestionIndex++;
     
+    // Check for intermediate results every 20 questions
+    if (currentQuestionIndex % 20 === 0) {
+        await showIntermediateResults();
+    }
+    
     if (currentQuestionIndex < questions.length) {
         displayQuestion();
     }
+}
+
+// Show intermediate results every 20 questions
+async function showIntermediateResults() {
+    const startIndex = currentQuestionIndex - 20;
+    const endIndex = currentQuestionIndex;
+    
+    try {
+        const response = await fetch('/api/intermediate-results', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                answers: userAnswers,
+                questions: questions,
+                startIndex: startIndex,
+                endIndex: endIndex
+            })
+        });
+        
+        const results = await response.json();
+        displayIntermediateResults(results, startIndex + 1, endIndex);
+    } catch (error) {
+        console.error('Error getting intermediate results:', error);
+    }
+}
+
+function displayIntermediateResults(results, start, end) {
+    const modal = document.createElement('div');
+    modal.className = 'modal';
+    modal.innerHTML = `
+        <div class="modal-content results">
+            <div class="results-header">
+                <h2>Tussentijdse Resultaten - Vragen ${start}-${end}</h2>
+                <button class="close-btn" onclick="this.parentElement.parentElement.remove()">&times;</button>
+            </div>
+            <div class="results-summary">
+                <div class="score-circle">
+                    <div class="score-text">
+                        <span>${results.percentage}%</span>
+                        <small>Behaald</small>
+                    </div>
+                </div>
+                <div class="score-details">
+                    <p>${results.score}/20 correct</p>
+                    <p>${results.recommendation}</p>
+                </div>
+            </div>
+            ${results.results.filter(r => !r.isCorrect).length > 0 ? `
+            <div class="wrong-answers-section">
+                <h3>Uitleg bij foutieve antwoorden</h3>
+                ${results.results.filter(r => !r.isCorrect).map(result => `
+                    <div class="wrong-answer-item">
+                        <h4>${result.question}</h4>
+                        <p><strong>Jouw antwoord:</strong> ${result.userAnswer !== undefined ? ['A', 'B', 'C', 'D'][result.userAnswer] : 'Geen antwoord'}</p>
+                        <p><strong>Correcte antwoord:</strong> ${['A', 'B', 'C', 'D'][result.correctAnswer]}</p>
+                        ${result.assistedExplanation ? `<div class="explanation"><strong>Uitleg:</strong> ${result.assistedExplanation}</div>` : ''}
+                        ${result.commonMistakes ? `<div class="explanation"><strong>Veel voorkomende fouten:</strong> ${result.commonMistakes.join(', ')}</div>` : ''}
+                    </div>
+                `).join('')}
+            </div>
+            ` : ''}
+            <div class="results-actions">
+                <button onclick="this.parentElement.parentElement.remove()">Verdergaan</button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    modal.style.display = 'block';
 }
 
 // Finish test
