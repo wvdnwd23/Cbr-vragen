@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBR Visual Demo - Met Foto's</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-images.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="mobile-header">
+            <h1>CBR Visual Demo</h1>
+            <p class="subtitle">Vragen met echte foto's</p>
+        </div>
+
+        <div class="question-container">
+            <div class="question-meta">
+                <span class="question-number">Vraag 1 van 10</span>
+                <span class="question-category">Verkeersborden</span>
+            </div>
+            
+            <div class="question-text">
+                Wat betekent dit verkeersbord?
+            </div>
+
+            <div class="question-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Netherlands_traffic_sign_B1.svg/240px-Netherlands_traffic_sign_B1.svg.png" 
+                     alt="Verkeersbord met kinderen" 
+                     onclick="openImage(this.src)">
+            </div>
+
+            <div class="answers-container">
+                <button class="answer-btn">Waarschuwing voor overstekende kinderen</button>
+                <button class="answer-btn">Speelplaats</button>
+                <button class="answer-btn">Schoolgebied</button>
+                <button class="answer-btn">Maximumsnelheid 30 km/h</button>
+            </div>
+        </div>
+
+        <div class="question-container">
+            <div class="question-meta">
+                <span class="question-number">Vraag 2 van 10</span>
+                <span class="question-category">Wegsituaties</span>
+            </div>
+            
+            <div class="question-text">
+                Wie heeft hier voorrang op dit kruispunt?
+            </div>
+
+            <div class="question-image">
+                <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0a2d?w=400&h=300&fit=crop" 
+                     alt="Kruispunt situatie" 
+                     onclick="openImage(this.src)">
+            </div>
+
+            <div class="answers-container">
+                <button class="answer-btn">De auto van rechts heeft voorrang</button>
+                <button class="answer-btn">De auto op de hoofdweg</button>
+                <button class="answer-btn">De snelste auto</button>
+                <button class="answer-btn">De auto die het eerst arriveert</button>
+            </div>
+        </div>
+
+        <div class="question-container">
+            <div class="question-meta">
+                <span class="question-number">Vraag 3 van 10</span>
+                <span class="question-category">Dashboard</span>
+            </div>
+            
+            <div class="question-text">
+                Wat betekent dit dashboardlampje?
+            </div>
+
+            <div class="question-image">
+                <img src="https://images.unsplash.com/photo-1551522435-6b3d5b651b51?w=400&h=300&fit=crop" 
+                     alt="Dashboard met waarschuwingslampje" 
+                     onclick="openImage(this.src)">
+            </div>
+
+            <div class="answers-container">
+                <button class="answer-btn">Motorprobleem - laat controleren</button>
+                <button class="answer-btn">Oliepeil te laag</button>
+                <button class="answer-btn">Koelvloeistof ontbreekt</button>
+                <button class="answer-btn">Brandstof bijna leeg</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openImage(src) {
+            // Open image in new tab for better viewing
+            window.open(src, '_blank');
+        }
+    </script>
+</body>
+</html>
